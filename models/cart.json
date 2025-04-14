@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "mobile": "9313516451",
+    "total": 1000,
+    "productlist": [
+      {
+        "_id": "1744610369601116",
+        "productId": "4",
+        "productName": "Moong Sabut",
+        "productMainImage": "uploads/MoongSabut.jpg",
+        "sizeId": "p1",
+        "size": "250gm",
+        "qty": 25,
+        "price": 40,
+        "subtotal": 1000,
+        "updatedAt": "2025-04-14T05:59:41.203Z"
+      }
+    ]
+  }
+]
