@@ -5,7 +5,9 @@ const jwt = require("jsonwebtoken");
 // Secret key for JWT
 const SECRET_KEY = process.env.JWT_SECRET;
 
-const sendOtp = require("../utils/sendOtp"); // OTP sending utility
+const sendOtp = require("../utils/sendOtp");
+const { readFileSafely, writeFileSafely } = require("../utils/fileUtils");
+
 
 // Path to users.json file
 const usersFilePath = path.join(__dirname, "../models/users.json");
@@ -50,8 +52,6 @@ const registerVendor = (req, res) => {
         if (!mobileRegex.test(mobile)) {
             return res.status(400).json({ status: 400, message: "Invalid mobile number" });
         }
-
-       
 
         // Pincode validation (6 digits, numeric)
         const pinCodeRegex = /^[1-9][0-9]{5}$/;
@@ -362,6 +362,63 @@ const updateAddress = (req, res) => {
     }
 };
 
+const getAllVendors = (req, res) => {
+  try {
+    const { keyword } = req.query;
+    const users = readFileSafely(usersFilePath);
+
+    let vendors = users.map((vendor) => ({
+      id: vendor.id,
+      vendorName: vendor.vendorName,
+      shopName: vendor.shopName,
+      mobile: vendor.mobile,
+      password: vendor.password,
+      gstNo: vendor.gstNo,
+      shopNo: vendor.shopNo,
+      address: vendor.address,
+      landmark: vendor.landmark,
+      city: vendor.city,
+      state: vendor.state,
+      pinCode: vendor.pinCode,
+      salesman: vendor.salesman,
+      otp: vendor.otp,
+      verified: vendor.verified,
+      pendingOrders: vendor.pendingOrders || 0,
+      acceptedOrders: vendor.acceptedOrders || 0,
+      cancelledOrders: vendor.cancelledOrders || 0,
+      outOfDeliveryOrders: vendor.outOfDeliveryOrders || 0,
+      deliveredOrders: vendor.deliveredOrders || 0,
+    }));
+
+    // ✅ Apply keyword filter (if any)
+    if (keyword && keyword.trim() !== "") {
+      const lowerKeyword = keyword.toLowerCase();
+      vendors = vendors.filter(vendor =>
+        (vendor.vendorName && vendor.vendorName.toLowerCase().includes(lowerKeyword)) ||
+        (vendor.shopName && vendor.shopName.toLowerCase().includes(lowerKeyword))
+      );
+    }
+
+    return res.status(200).json({
+      status: 200,
+      message: "Vendors fetched successfully",  
+      data: vendors
+    });
+
+  } catch (error) {
+    console.error("Error in getAllVendors:", error);
+    return res.status(500).json({
+      status: 500,
+      message: "Internal Server Error"
+    });
+  }
+};
+
+
+
+
+
+
 
 module.exports = {
     registerVendor,
@@ -371,5 +428,7 @@ module.exports = {
     changePassword,
     forgotPassword,
     forgotPasswordVerifyOtp,
-    updateAddress
+    updateAddress,
+    getAllVendors
+    
 };

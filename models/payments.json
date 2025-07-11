@@ -46,5 +46,21 @@
       "dialcode": "+91",
       "mobile": "9876501234"
     }
+  },
+  {
+    "id": "1111",
+    "amount": 2500,
+    "type": "cash",
+    "salesmanId": "1742014092303",
+    "createdAt": "2025-05-02T03:22:24.434Z",
+    "updatedAt": "2025-05-02T03:22:24.434Z",
+    "status": "Pending",
+    "referenceNo": "REF-1111",
+    "salesmenInfo": {
+      "id": "1742014092303",
+      "name": "Preet Vachhani",
+      "dialcode": "+91",
+      "mobile": "9876501234"
+    }
   }
 ]

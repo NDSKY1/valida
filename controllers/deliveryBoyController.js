@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const SECRET_KEY = process.env.JWT_SECRET;
 const ordersFilePath = path.join(__dirname, '../models/COrders.json');
-const ordersJsonPath = path.join(__dirname, '../models/orders.json');
+// const ordersJsonPath = path.join(__dirname, '../models/orders.json');
 
 
 // Load delivery boys from JSON file
@@ -192,11 +192,199 @@ const markAsDelivered = (req, res) => {
 };
 
 
+// get all delivery for admin
+const getAllDeliveryBoys = (req, res) => {
+    try {
+        const { keyword } = req.query;
+        let deliveryBoys = loadDeliveryBoys();
+
+        // Filter by name if keyword is provided
+        if (keyword && keyword.trim() !== "") {
+            const lowerKeyword = keyword.toLowerCase();
+            deliveryBoys = deliveryBoys.filter(boy =>
+                boy.name.toLowerCase().includes(lowerKeyword)
+            );
+        }
+
+        res.status(200).json({
+            status: 200,
+            message: "All delivery boys fetched successfully",
+            data: deliveryBoys
+        });
+    } catch (error) {
+        console.error("Error reading deliveryBoy.json:", error);
+        res.status(500).json({
+            status: 500,
+            message: "Failed to fetch delivery boys",
+            error: error.message
+        });
+    }
+};
+const updateDeliveryBoyStatus = (req, res) => {
+    const { id, status } = req.body; // Expecting: id = "1", status = "active" or "inactive"
+
+    if (!id || !status) {
+        return res.status(400).json({
+            status: 400,
+            message: "Both 'id' and 'status' fields are required"
+        });
+    }
+
+    const filePath = path.join(__dirname, "../models/deliveryBoy.json");
+
+    try {
+        let deliveryBoys = loadDeliveryBoys();
+
+        const index = deliveryBoys.findIndex(boy => boy.id === id);
+
+        if (index === -1) {
+            return res.status(404).json({
+                status: 404,
+                message: "Delivery boy not found"
+            });
+        }
+
+        // Update isActive based on status string
+        deliveryBoys[index].isActive = status.toLowerCase() === "active";
+
+        // Save changes
+        fs.writeFileSync(filePath, JSON.stringify(deliveryBoys, null, 2));
+
+        return res.status(200).json({
+            status: 200,
+            message: `Delivery boy status updated to ${status}`,
+        });
+
+    } catch (error) {
+        console.error("Error updating delivery boy status:", error);
+        return res.status(500).json({
+            status: 500,
+            message: "Internal server error",
+            error: error.message
+        });
+    }
+};
+
+
+
+// ✅ Assign Delivery Boy (no changes)
+const assignDeliveryBoy = async (req, res) => {
+  try {
+    const { orderId, deliveryBoyId } = req.body;
+
+    if (!orderId || !deliveryBoyId) {
+      return res.status(400).json({ message: "Order ID and Delivery Boy ID are required" });
+    }
+
+    let orders = readFileSafely(orderFilePath);
+    let deliveryBoys = readFileSafely(deliveryBoyFilePath);
+    let users = readFileSafely(userFilePath);
+
+    const orderIndex = orders.findIndex(order => order.orderId === orderId);
+    if (orderIndex === -1) {
+      return res.status(404).json({ message: "Order not found" });
+    }
+
+    const deliveryBoyIndex = deliveryBoys.findIndex(boy => boy.id === deliveryBoyId);
+    if (deliveryBoyIndex === -1) {
+      return res.status(404).json({ message: "Delivery Boy not found" });
+    }
+
+    deliveryBoys[deliveryBoyIndex].activeOrders =
+      (deliveryBoys[deliveryBoyIndex].activeOrders || 0) + 1;
+
+    writeFileSafely(deliveryBoyFilePath, deliveryBoys);
+
+    const mobileNumber = orders[orderIndex].mobile;
+    const user = users.find(u => u.mobile === mobileNumber);
+
+    const vendorsData = user
+      ? {
+          id: user.id.toString(),
+          vendorName: user.vendorName,
+          shopName: user.shopName,
+          mobile: user.mobile,
+          gstNo: user.gstNo,
+          shipment: {
+            shopNo: user.shopNo,
+            address: user.address,
+            landmark: user.landmark,
+            city: user.city,
+            state: user.state,
+            pinCode: user.pinCode
+          }
+        }
+      : null;
+
+    orders[orderIndex].status = "out of delivery";
+    writeFileSafely(orderFilePath, orders);
+
+    const newOrder = {
+      id: orderId,
+      challanNo: orderId,
+      total: orders[orderIndex].total,
+      productList: orders[orderIndex].products,
+      remark: orders[orderIndex].remark || "N/A",
+      status: "out of delivery",
+      deliveryBoy: deliveryBoyId,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+      mobile: mobileNumber,
+      vendorsData: vendorsData
+    };
+
+    const corders = readFileSafely(corderFilePath);
+    corders.push(newOrder);
+    writeFileSafely(corderFilePath, corders);
+
+    return res.status(200).json({
+      message: "Delivery Boy assigned successfully, order status updated to 'out of delivery', and active orders updated",
+      order: newOrder
+    });
+  } catch (error) {
+    console.error("Error assigning delivery boy:", error);
+    return res.status(500).json({ message: "Internal Server Error" });
+  }
+};
+// ✅ Get only active delivery boys
+const getActiveDeliveryBoys = (req, res) => {
+    try {
+        const deliveryBoys = loadDeliveryBoys();
+
+        // Filter only active boys
+        const activeBoys = deliveryBoys.filter(boy => boy.isActive === true);
+
+        res.status(200).json({
+            status: 200,
+            message: "Active delivery boys fetched successfully",
+            data: activeBoys
+        });
+    } catch (error) {
+        console.error("Error fetching active delivery boys:", error);
+        res.status(500).json({
+            status: 500,
+            message: "Failed to fetch active delivery boys",
+            error: error.message
+        });
+    }
+};
+
+
+
+
+
+
+
+
 
 module.exports = {
     loginDeliveryBoy,
     getDeliveryBoyProfile,
     getDeliveryBoyDashboard,
     getDeliveryBoyOrders,
-    markAsDelivered
+    markAsDelivered,
+    getAllDeliveryBoys,
+    updateDeliveryBoyStatus,
+    assignDeliveryBoy,
+    getActiveDeliveryBoys 
 };

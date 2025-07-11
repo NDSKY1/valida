@@ -7,6 +7,13 @@ const verifyToken = require("../middlewares/authMiddleware"); // Import middlewa
 router.post("/create", verifyToken, orderController.createOrder);
 router.get("/myOrderList", verifyToken, orderController.getUserOrders);
 
+router.post("/updateOrderStatus", orderController.updateOrderStatus);
+router.get("/allOrders", orderController.getAllOrdersForAdmin); 
+
+router.get("/cancelledOrders", orderController.getAllCancelledOrders);
+
+
+
 module.exports = router;
 
 

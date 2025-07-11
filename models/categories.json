@@ -1,27 +1,32 @@
 [
-    {
-      "id": 1,
-      "name": "Pulses",
-      "total_products": 6,
-      "img": "/categories_img/Pulses.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Indian Spices",
-      "total_products": 30,
-      "img": "/categories_img/Indian_Spices.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Dry Fruits",
-      "total_products": 4,
-      "img": "/categories_img/Dry_Fruits.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Atta",
-      "total_products": 1,
-      "img": "/categories_img/Atta.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Pulses",
+    "total_products": 6,
+    "img": "/categories_img/Pulses.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Indian Spices",
+    "total_products": 30,
+    "img": "/categories_img/Indian_Spices.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dry Fruits",
+    "total_products": 4,
+    "img": "/categories_img/Dry_Fruits.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Atta",
+    "total_products": 1,
+    "img": "/categories_img/Atta.jpg"
+  },
+  {
+    "id": 5,
+    "name": "olis",
+    "total_products": 2,
+    "img": "/categories_img/cat_1751959645131-142014316.jpg"
+  }
+]

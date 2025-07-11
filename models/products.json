@@ -1,773 +1,1707 @@
 [
-    {
-      "_id": "1",
-      "categories_id": "1",
-      "productName": "Black Sabut Urad Dal",
-      "productDescription": "<p><strong>Discover the wholesome goodness of Black Sabut Urad Dal</strong>, a staple in Indian cuisine.</p><p>This <strong>nutrient-rich whole black gram</strong> is not only packed with protein but also boasts a high fiber content, making it an excellent choice for a healthy diet.</p><p>Its earthy flavor and creamy texture make it perfect for <em>dals, soups</em>, and even snacks like <em>dosa</em> or <em>idli</em>.</p><p>Rich in essential vitamins and minerals, our Black Sabut Urad Dal is sourced from the finest farms, ensuring premium quality and taste.</p><p><strong>Elevate your culinary creations</strong> with this versatile ingredient!</p>",
-      "productMainImage": "uploads/BlackSabutUradDal.jpg",
-      "productOtherImages": [
-        { "_id": "img1", "url": "uploads/BlackSabutUradDal1.jpg" },
-        { "_id": "img2", "url": "uploads/BlackSabutUradDal2.jpg" },
-        { "_id": "img3", "url": "uploads/BlackSabutUradDal3.jpg" }
-      ],
-      "availablePackSizes": [
-        { "_id": "p1", "size": "250gm", "priceForWholesaler": 35, "priceForRetailer": 50 },
-        { "_id": "p2", "size": "500gm", "priceForWholesaler": 165, "priceForRetailer": 220 },
-        { "_id": "p3", "size": "1kg", "priceForWholesaler": 320, "priceForRetailer": 450 }
-      ],
-      "status": "active",
-      "slug": "Black Sabut Urad Dal"
-    },
-  
-
-    {
-        "_id": "2",
-        "categories_id":"1",
-        "productName": "Brown Chana",
-        "productDescription": "<p><strong>Discover the wholesome goodness of Brown Chana (Brown Chickpeas)</strong>, a nutritious legume known for its hearty texture and rich flavor.</p><p>Packed with <strong>protein and dietary fiber</strong>, these chickpeas are ideal for a range of dishes, including <em>stews, salads</em>, and <em>snacks</em>.</p><p>They are a fantastic source of <strong>essential nutrients</strong>, making them perfect for <em>health-conscious eaters</em> and those following <em>vegetarian or vegan diets</em>.</p><p>Our Brown Chana is carefully sourced to ensure premium quality, allowing you to enjoy their <strong>delicious taste and health benefits</strong> in every bite.</p><p><strong>Enhance your meals</strong> with the wholesome goodness of Brown Chana!</p></div>",
-        "productMainImage": "uploads/BrownChana.jpg",
-        "productOtherImages": [
-            { "_id": "img1", "url": "uploads/BrownChana1.jpg" },
-            { "_id": "img2", "url": "uploads/BrownChana2.jpg" },
-            { "_id": "img3", "url": "uploads/BrownChana3.jpg" }
-        ],
-        "availablePackSizes": [
-            { "_id": "p1", "size": "250gm", "priceForWholesaler": 35, "priceForRetailer": 50 },
-            { "_id": "p2", "size": "500gm", "priceForWholesaler": 165, "priceForRetailer": 220 },
-            { "_id": "p3", "size": "1kg", "priceForWholesaler": 320, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Brown Chana"
-    },
-
-    {
-        "_id": "3",
-        "categories_id":"1",
-        "productName": "Chana Daal",
-        "productDescription": "<p>This versatile legume is a staple in Indian cuisine, celebrated for its high protein content and fiber. Ideal for making delicious dals, curries, and salads, Chana Daal adds a hearty texture and nutty flavor to your meals. Sourced from premium farms, our Chana Daal is carefully cleaned and packaged to ensure freshness. Whether you're preparing a traditional dish or experimenting in the kitchen, Chana Daal is the perfect ingredient to enhance your culinary creations and support a healthy diet!</p>",
-        "productMainImage": "uploads/ChanaDaal.jpg",
-        "productOtherImages": [
-            { "_id": "img1", "url": "uploads/ChanaDaal1.jpg" },
-            { "_id": "img2", "url": "uploads/ChanaDaal2.jpg" },
-            { "_id": "img3", "url": "uploads/ChanaDaal3.jpg" }
-        ],
-        "availablePackSizes": [
-            { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-            { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-            { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Chana Daal"
-    },
-
-    {
-        "_id": "4",
-        "categories_id":"1",
-        "productName": "Moong Sabut",
-        "productDescription": "<p>Known for its rich protein content and high fiber, this versatile legume is perfect for a variety of dishes, including soups, dals, salads, and stir-fries. Sourced from the best farms, our Moong Sabut is not only delicious but also packed with essential vitamins and minerals, making it an excellent choice for health-conscious individuals and those following vegetarian or vegan diets. Enjoy the earthy flavor and numerous health benefits of Moong Sabut in your meals today!</p>",
-        "productMainImage": "uploads/MoongSabut.jpg",
-        "productOtherImages": [
-            { "_id": "img1", "url": "uploads/MoongSabut1.jpg" },
-            { "_id": "img2", "url": "uploads/MoongSabut2.jpg" },
-            { "_id": "img3", "url": "uploads/MoongSabut3.jpg" }
-        ],
-        "availablePackSizes": [
-            { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-            { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-            { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Moong Sabut"
-    },
-
-    {
-        "_id": "5",
-        "categories_id":"1",
-        "productName": "Moong Dal",
-        "productDescription": "<p><strong>Discover the wholesome goodness of Black Sabut Urad Dal</strong>, a staple in Indian cuisine.</p><p>This <strong>nutrient-rich whole black gram</strong> is not only packed with protein but also boasts a high fiber content, making it an excellent choice for a healthy diet.</p><p>Its earthy flavor and creamy texture make it perfect for <em>dals, soups</em>, and even snacks like <em>dosa</em> or <em>idli</em>.</p><p>Rich in essential vitamins and minerals, our Black Sabut Urad Dal is sourced from the finest farms, ensuring premium quality and taste.</p><p><strong>Elevate your culinary creations</strong> with this versatile ingredient!</p>",
-        "productMainImage": "uploads/MoongDal.jpg",
-        "productOtherImages": [
-            { "_id": "img1", "url": "uploads/MoongDal1.jpg" },
-            { "_id": "img2", "url": "uploads/MoongDal2.jpg" },
-            { "_id": "img3", "url": "uploads/MoongDal3.jpg" }
-        ],
-        "availablePackSizes": [
-            { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-            { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-            { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Moong Dal"
-    },
-
-    {
-        "_id": "6",
-        "categories_id":"1",
-        "productName": "Toor Daal",
-        "productDescription": "<p><strong>Toor dal</strong>, also known as split pigeon peas, is a staple legume in Indian cuisine, celebrated for its <strong>nutritional value</strong> and versatility in various dishes.</p><p>Rich in <strong>protein and fiber</strong>, it serves as an excellent plant-based protein source, making it especially popular among <em>vegetarians and vegans</em>.</p><p>Toor dal is commonly used in <em>curries, soups,</em> and <em>stews</em>. It can be prepared as a comforting dal, often paired with <strong>rice or flatbreads</strong>, or incorporated into <em>salads or snacks</em> for a protein boost.</p><p>For optimal texture and flavor, <strong>soaking toor dal</strong> before cooking can reduce cooking time. Spices like <em>turmeric, cumin,</em> and <em>mustard seeds</em> are often used to enhance its taste.</p><p>Toor dal can be <em>pressure-cooked or boiled</em>, making it a flexible and essential ingredient in your kitchen.</p>",
-        "productMainImage": "uploads/ToorDaal.jpg",
-        "productOtherImages": [
-            { "_id": "img1", "url": "uploads/ToorDaal1.jpg" },
-            { "_id": "img2", "url": "uploads/ToorDaal2.jpg" },
-            { "_id": "img3", "url": "uploads/ToorDaal3.jpg" }
-        ],
-        "availablePackSizes": [
-            { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-            { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-            { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Toor Daal"
-    },
-
-    {
-        "_id": "7",
-        "categories_id":"2",
-        "productName": "Vanilla",
-        "productDescription": "<p><strong>Vanilla</strong>, derived from the orchids of the genus <em>Vanilla</em>, is one of the most beloved and widely used flavorings in the world.</p><p>Known for its <strong>sweet, creamy aroma</strong>, vanilla enhances the flavors of <em>ice creams, cakes, custards,</em> and more. It is available in various forms, including <strong>whole beans, extract,</strong> and <strong>powder</strong>, each offering unique flavor profiles.</p><p>Nutritionally, vanilla is <em>low in calories</em> and contains trace amounts of essential nutrients. While it lacks significant protein or fats, it is <strong>rich in antioxidants</strong> that may help combat oxidative stress.</p><p>Beyond the kitchen, vanilla has been traditionally valued for its <strong>anti-inflammatory and calming properties</strong>, often used in <em>aromatherapy</em> to promote relaxation and reduce stress.</p><p>In cooking, <strong>vanilla extract</strong> is the most common form, capturing the essence of the beans. Its versatility allows it to complement both <em>sweet and savory</em> dishes, making it an indispensable kitchen ingredient.</p><p>With its <strong>delightful flavor and aromatic qualities</strong>, vanilla continues to elevate the taste and experience of countless recipes.</p>",
-        "productMainImage": "uploads/Vanilla.jpg",
-        "productOtherImages": [
-            { "_id": "img1", "url": "uploads/Vanilla1.jpg" },
-            { "_id": "img2", "url": "uploads/Vanilla2.jpg" },
-            { "_id": "img3", "url": "uploads/Vanilla3.jpg" }
-        ],
-        "availablePackSizes": [
-            { "_id": "p1", "size": "100gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-            { "_id": "p2", "size": "200gm", "priceForWholesaler": 190, "priceForRetailer": 220 }
-        ],
-        "status": "active",
-        "slug": "Vanilla"
-    },
-
-    {
-        "_id": "8",
-        "categories_id":"2",
-        "productName": "Black Pepper",
-        "productDescription": "<p><strong>Black pepper</strong>, often referred to as the <em>'king of spices'</em>, is one of the most popular spices worldwide. Derived from the dried berries of the <em>Piper nigrum</em> plant, black pepper is known for its <strong>sharp, pungent flavor</strong> and is used in various cuisines to enhance the taste of countless dishes.</p><p>It is a staple seasoning in kitchens globally, commonly used in both <em>savory and sweet</em> recipes.</p><p>Nutritionally, black pepper is <em>low in calories</em> yet <strong>rich in beneficial compounds</strong>. It contains <strong>piperine</strong>, which may aid digestion and enhance the absorption of certain nutrients. With a notable amount of <strong>dietary fiber</strong>, it supports digestive health and helps maintain a feeling of fullness.</p><p>In addition to its culinary uses, black pepper offers a range of <strong>potential health benefits</strong>, including <em>antioxidant and anti-inflammatory</em> properties. It may also promote <strong>respiratory health</strong> and improve <strong>blood circulation</strong>.</p><p>Black pepper can be used <em>whole or freshly ground</em>, making it a versatile ingredient in <strong>spice blends, marinades,</strong> and <strong>dressings</strong>. Its ability to elevate flavors makes it an <strong>essential addition</strong> to any spice collection, enhancing the culinary experience with its distinctive warmth and aroma.</p>",
-        "productMainImage": "uploads/BlackPepper.jpg",
-        "productOtherImages": [
-            { "_id": "img1", "url": "uploads/BlackPepper1.jpg" }
-        ],
-        "availablePackSizes": [
-            { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-            { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-            { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Black Pepper"
-    },
-
-    {
-        "_id": "9",
-        "categories_id":"2",
-        "productName": "Star Anise",
-        "productDescription": "<p><strong>Star anise</strong>, derived from the fruit of the <em>Illicium verum</em> tree, is a star-shaped spice that boasts a <strong>strong, sweet, and licorice-like flavor</strong>. Commonly used in <em>Chinese and Southeast Asian cuisines</em>, star anise is a key ingredient in dishes such as <strong>Chinese five-spice powder</strong> and is often used to flavor <em>broths, soups,</em> and <em>braises</em>.</p><p>Nutritionally, star anise is <em>low in calories</em> yet <strong>rich in essential nutrients</strong>. It provides a good source of <strong>dietary fiber</strong>, which supports digestive health, along with important minerals like <strong>calcium, iron,</strong> and <strong>magnesium</strong> that contribute to overall well-being.</p><p>Star anise is also known for its <strong>potential health benefits</strong>. It contains <strong>antioxidants</strong> and has been traditionally used for its <em>antimicrobial</em> and <em>anti-inflammatory</em> properties. Some studies suggest that it may <strong>aid digestion, boost the immune system,</strong> and <strong>support respiratory health</strong>.</p><p>In culinary applications, star anise can be used <em>whole or ground</em>. When used whole, it adds a <strong>visually appealing element</strong> to dishes and infuses a rich flavor during cooking. Its <strong>unique taste</strong> enhances both <em>savory and sweet</em> recipes, making it a <strong>versatile spice</strong> in many kitchens. With its distinct flavor profile and health benefits, star anise is a <strong>treasured ingredient</strong> that elevates the taste of a variety of dishes.</p>",
-        "productMainImage": "uploads/StarAnise.jpg",
-        "productOtherImages": [
-            { "_id": "img1", "url": "uploads/StarAnise1.jpg" },
-            { "_id": "img2", "url": "uploads/StarAnise2.jpg" },
-            { "_id": "img3", "url": "uploads/Star Anise3.jpg" }
-        ],
-        "availablePackSizes": [
-            { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-            { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-            { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Star Anise"
-    },
-
-    {
-        "_id": "10",
-        "categories_id":"2",
-        "productName": "Red Chill",
-        "productDescription": "<p><strong>Red chili</strong>, derived from the <em>Capsicum</em> species, is a vibrant spice known for its <strong>bold flavor and heat</strong>. Widely used in various cuisines around the world, red chili can be found in <em>fresh, dried,</em> and <em>powdered forms</em>. It is a key ingredient in <strong>spice blends, sauces,</strong> and <strong>marinades</strong>, adding depth and warmth to dishes ranging from <em>curries and stews</em> to <em>salsas and stir-fries</em>.</p><p>Nutritionally, red chili is <em>low in calories</em> but <strong>rich in essential nutrients</strong>. It is a good source of <strong>dietary fiber</strong>, which aids digestion, and contains vitamins and minerals, including <strong>vitamin C, potassium,</strong> and <strong>iron</strong>. These nutrients contribute to overall health and support immune function.</p><p>Red chili is also celebrated for its <strong>potential health benefits</strong>. It contains <strong>capsaicin</strong>, the compound responsible for its heat, which may help <em>boost metabolism, promote fat burning,</em> and <em>alleviate pain</em>. Additionally, red chili has <strong>antioxidant properties</strong> and may improve <em>cardiovascular health</em>.</p><p>In cooking, red chili can be used in various forms—<em>fresh for a bright, zesty flavor; dried for concentrated heat;</em> or <em>ground into chili powder</em> for seasoning. Its <strong>versatility</strong> makes red chili an essential ingredient in many kitchens, enhancing the <strong>flavor and health benefits</strong> of a wide range of dishes.</p>",
-        "productMainImage": "uploads/RedChill.jpg",
-        "productOtherImages": [
-            { "_id": "img1", "url": "uploads/RedChill1.jpg" },
-            { "_id": "img2", "url": "uploads/RedChill2.jpg" },
-            { "_id": "img3", "url": "uploads/RedChill3.jpg" }
-        ],
-        "availablePackSizes": [
-            { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-            { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-            { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Red Chill"
-    },
-
-    {
-        "_id": "11",
-        "categories_id":"2",
-        "productName": "Bay Leaf",
-        "productDescription": "<p><strong>Bay leaves</strong>, derived from the <em>Laurus nobilis</em> tree, are aromatic leaves commonly used in cooking for their <strong>distinctive flavor and fragrance</strong>. Often used in <em>Mediterranean, Indian,</em> and <em>Asian cuisines</em>, bay leaves add depth to a variety of dishes, including <strong>soups, stews,</strong> and <strong>sauces</strong>. They are typically used whole during cooking and removed before serving, as their tough texture makes them inedible.</p><p>Nutritionally, bay leaves are <em>low in calories</em> but <strong>rich in essential vitamins and minerals</strong>. They are a source of <strong>dietary fiber</strong>, which supports digestive health, and contain <strong>antioxidants</strong> that may help reduce inflammation and promote overall well-being.</p><p>In addition to their culinary uses, bay leaves have been valued in <strong>traditional medicine</strong> for their potential health benefits, including <em>aiding digestion</em> and <em>relieving respiratory conditions</em>. Their <strong>unique aroma and flavor</strong> make them a versatile ingredient in both <em>savory and sweet dishes</em>, enhancing the overall taste profile. Whether used in <strong>cooking</strong> or as a flavor enhancer in <em>herbal teas</em>, bay leaves are an essential addition to any spice collection.</p>",
-        "productMainImage": "uploads/BayLeaf.jpg",
-        "productOtherImages": [
-            { "_id": "img1", "url": "uploads/BayLeaf1.jpg" },
-            { "_id": "img2", "url": "uploads/BayLeaf2.jpg" },
-            { "_id": "img3", "url": "uploads/BayLeaf3.jpg" }
-        ],
-        "availablePackSizes": [
-            { "_id": "p1", "size": "50gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-            { "_id": "p2", "size": "100gm", "priceForWholesaler": 190, "priceForRetailer": 220 }
-        ],
-        "status": "active",
-        "slug": "Bay Leaf"
-    },
-
-    {
-        "_id": "12",
-        "categories_id": "2",
-        "productName": "Cardamom",
-        "productDescription": "<p><strong>Cardamom</strong>, often referred to as the <em>'queen of spices'</em>, is a highly aromatic spice derived from the seeds of plants in the <em>Zingiberaceae</em> family, primarily <em>Elettaria cardamomum</em> and <em>Amomum subulatum</em>. Known for its <strong>sweet and slightly spicy flavor</strong>, cardamom is widely used in both <strong>savory and sweet dishes</strong> across various cuisines, particularly in <em>Indian, Middle Eastern,</em> and <em>Scandinavian cooking</em>.</p><p>Nutritionally, cardamom is <em>low in calories</em> but <strong>rich in essential nutrients</strong>. It contains significant amounts of <strong>dietary fiber</strong>, which aids digestion and promotes gut health. The spice is also a good source of <strong>calcium, iron,</strong> and <strong>magnesium</strong>, which are vital for maintaining overall health.</p><p>In addition to its culinary uses, cardamom has been traditionally valued for its <strong>medicinal properties</strong>. It is known for its potential <strong>antioxidant, anti-inflammatory,</strong> and <strong>digestive benefits</strong>. The spice can be used <em>whole or ground</em>, making it versatile for use in <strong>spice blends, teas, desserts,</strong> and <strong>savory dishes</strong>. With its <strong>unique flavor profile</strong> and <strong>numerous health benefits</strong>, cardamom is an essential ingredient in many kitchens, adding depth and complexity to culinary creations while also promoting wellness.</p>",
-        "productMainImage": "uploads/Cardamom.jpg",
-        "productOtherImages": [
-            { "_id": "img1", "url": "uploads/Cardamom1.jpg" },
-            { "_id": "img2", "url": "uploads/Cardamom2.jpg" },
-            { "_id": "img3", "url": "uploads/Cardamom3.jpg" }
-        ],
-        "availablePackSizes": [
-            { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-            { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-            { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Cardamom"
-    },
-    
-
-    {
-        "_id": "13",
-        "categories_id": "2",
-        "productName": "Fennel Seeds",
-        "productDescription": "<p><strong>Fennel seeds</strong>, derived from the <em>Foeniculum vulgare</em> plant, are <strong>aromatic seeds</strong> known for their <strong>sweet, licorice-like flavor</strong>. Commonly used in <em>Mediterranean, Indian,</em> and <em>Middle Eastern cuisines</em>, fennel seeds are <strong>versatile</strong> and can enhance a variety of dishes, from <strong>curries and soups</strong> to <strong>salads and baked goods</strong>. They are also a key ingredient in spice blends like <em>panch phoron</em> and are often used in <em>herbal teas</em>.</p><p>Nutritionally, fennel seeds are <em>low in calories</em> but <strong>rich in essential nutrients</strong>. They provide a significant amount of <strong>dietary fiber</strong>, which aids digestion and promotes gut health. With high levels of <strong>calcium, iron,</strong> and <strong>magnesium</strong>, fennel seeds support <strong>bone health</strong> and overall well-being.</p><p>Beyond their culinary applications, fennel seeds are valued for their potential <strong>health benefits</strong>. They are known for their <strong>antioxidant properties</strong> and may help with <em>digestive issues</em>, <em>reduce bloating</em>, and support <em>respiratory health</em>. Traditionally, fennel seeds have also been used to <strong>freshen breath</strong> and as a <strong>natural remedy</strong> for various ailments.</p><p>Fennel seeds can be used <em>whole or ground</em>, adding <strong>versatility</strong> to their culinary uses. Whether incorporated into <strong>savory dishes</strong> or used in <strong>desserts</strong>, fennel seeds bring a <strong>unique flavor</strong> and <strong>numerous health benefits</strong>, making them a treasured spice in many kitchens.</p>",
-        "productMainImage": "uploads/FennelSeeds.jpg",
-        "productOtherImages": [
-            { "_id": "img1", "url": "uploads/FennelSeeds1.jpg" },
-            { "_id": "img2", "url": "uploads/FennelSeeds2.jpg" },
-            { "_id": "img3", "url": "uploads/FennelSeeds3.jpg" }
-        ],
-        "availablePackSizes": [
-            { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-            { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-            { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Fennel Seeds"
-    },
-    
-
-    {
-        "_id": "14",
-        "categories_id": "2",
-        "productName": "Celery Seeds",
-        "productDescription": "<p><strong>Celery seeds</strong>, derived from the <em>Apium graveolens</em> plant, are small, aromatic seeds that pack a powerful flavor punch. Commonly used in a variety of dishes, they deliver a <strong>distinctive earthy and slightly peppery taste</strong> that enhances <em>salads, dressings, soups,</em> and <em>pickles</em>.</p><p>Nutritionally, celery seeds are <strong>low in calories</strong> but rich in <strong>dietary fiber</strong>, helping support digestive health and weight management. They are also a good source of <strong>calcium, iron,</strong> and <strong>magnesium</strong>, vital for strong bones and metabolic function.</p><p>In traditional medicine, they're known for their <strong>anti-inflammatory and diuretic properties</strong>, and are often used to support <strong>heart health</strong> and regulate <strong>blood pressure</strong>.</p><p>Whether used <em>whole or ground</em>, celery seeds are incredibly versatile and <strong>add flavor and nutrition</strong> to many recipes. A small amount goes a long way, making them an essential addition to your spice collection.</p>",
-        "productMainImage": "uploads/CelerySeeds.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/CelerySeeds1.jpg" },
-          { "_id": "img2", "url": "uploads/CelerySeeds2.jpg" },
-          { "_id": "img3", "url": "uploads/CelerySeeds3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "celery-seeds"
-    },
-
-    {
-        "_id": "15",
-        "categories_id": "2",
-        "productName": "Nutmeg",
-        "productDescription": "<p><strong>Nutmeg</strong> is a warm and aromatic spice obtained from the seed of the <em>Myristica fragrans</em> tree. With its <strong>sweet, nutty flavor</strong>, nutmeg is a cherished ingredient in both <em>sweet and savory</em> recipes, especially in <em>baked goods, sauces, curries,</em> and <em>beverages like eggnog</em>.</p><p>This spice is <strong>low in calories</strong> and offers important nutrients like <strong>fiber, calcium, iron,</strong> and <strong>magnesium</strong>, which support digestive and bone health.</p><p>Nutmeg has long been used in traditional medicine for its <strong>antioxidant, anti-inflammatory,</strong> and <strong>digestive properties</strong>. It may also help improve <em>sleep quality</em> and promote <em>relaxation</em>.</p><p>Whether <em>grated or ground</em>, nutmeg adds depth and warmth to dishes. Its <strong>rich aroma and health benefits</strong> make it a beloved kitchen staple across global cuisines.</p>",
-        "productMainImage": "uploads/Nutmeg.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/Nutmeg1.jpg" },
-          { "_id": "img2", "url": "uploads/Nutmeg2.jpg" },
-          { "_id": "img3", "url": "uploads/Nutmeg3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "nutmeg"
-    },
-
-    {
-        "_id": "16",
-        "categories_id": "2",
-        "productName": "Cardamom",
-        "productDescription": "<p><strong>Cardamom</strong>, known as the <em>'queen of spices'</em>, comes from the seeds of <em>Elettaria cardamomum</em> and <em>Amomum subulatum</em>. Its <strong>sweet and spicy aroma</strong> makes it a favorite in <em>Indian, Middle Eastern,</em> and <em>Scandinavian cuisines</em>.</p><p>It's <strong>low in calories</strong> but offers essential nutrients including <strong>fiber, calcium, iron,</strong> and <strong>magnesium</strong> — all important for digestive and bone health.</p><p>Traditionally, cardamom is used for its <strong>antioxidant, anti-inflammatory,</strong> and <strong>digestive properties</strong>. It's enjoyed <em>whole or ground</em>, and works beautifully in <em>teas, desserts, spice mixes,</em> and <em>savory dishes</em>.</p><p>Its <strong>complex flavor</strong> and <strong>health benefits</strong> make cardamom a must-have for both <strong>culinary excellence</strong> and <strong>wellness</strong>.</p>",
-        "productMainImage": "uploads/Cardamom.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/Cardamom1.jpg" },
-          { "_id": "img2", "url": "uploads/Cardamom2.jpg" },
-          { "_id": "img3", "url": "uploads/Cardamom3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Cardamom"
-    },
-
-    {
-        "_id": "17",
-        "categories_id": "2",
-        "productName": "Aniseed",
-        "productDescription": "<p><strong>Aniseed</strong>, known for its <em>sweet, aromatic flavor</em> reminiscent of licorice, is a spice derived from the <em>Pimpinella anisum</em> plant. Popular in <em>Mediterranean</em> and <em>Middle Eastern cuisines</em>, it enhances both <strong>savory and sweet dishes</strong> like baked goods, spice blends, and herbal teas.</p><p>Rich in <strong>dietary fiber, calcium,</strong> and <strong>iron</strong>, aniseed supports <strong>digestive health</strong>, bone strength, and oxygen transport. Its <strong>antioxidant properties</strong> help protect against oxidative stress.</p><p>Traditionally, aniseed has been used for its <strong>digestive, antimicrobial,</strong> and <strong>bloating-relief</strong> qualities. It can be used <em>whole or ground</em>, offering great versatility in the kitchen.</p><p>Incorporating aniseed into your meals not only <strong>boosts flavor</strong> but also adds <strong>nutritional value</strong>. Whether in teas, baked treats, or spice mixes, it's a delightful way to elevate your culinary creations.</p>",
-        "productMainImage": "uploads/Aniseed.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/Aniseed1.jpg" },
-          { "_id": "img2", "url": "uploads/Aniseed2.jpg" },
-          { "_id": "img3", "url": "uploads/Aniseed3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Aniseed"
-    },
-
-    {
-        "_id": "18",
-        "categories_id": "2",
-        "productName": "Salt",
-        "productDescription": "<p><strong>Salt</strong>, primarily composed of <em>sodium chloride</em>, is one of the most <strong>essential and widely used seasonings</strong> in kitchens around the world. Renowned for its ability to <strong>enhance flavor</strong>, salt has long been used in both cooking and food preservation.</p><p>Though it contains <strong>no calories</strong>, salt plays a vital role in the body. <strong>Sodium</strong>, its key component, is crucial for <em>regulating blood pressure, maintaining fluid balance,</em> and supporting <em>muscle and nerve function</em>. However, it should be consumed in moderation, as <strong>excess intake can lead to health issues</strong> like hypertension.</p><p>Salt comes in many forms — from <strong>table salt</strong> and <strong>sea salt</strong> to <strong>kosher salt</strong> — each offering unique textures and mineral profiles for different culinary applications. <em>Table salt</em> is ideal for everyday use, while <em>sea salt</em> is prized for its coarser grains and natural minerals.</p><p>Whether used to <strong>season vegetables</strong>, enrich marinades, or bring out the flavors in baked goods, salt remains a <strong>versatile and indispensable ingredient</strong> that elevates every dish.</p>",
-        "productMainImage": "uploads/Salt.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/Salt1.jpg" },
-          { "_id": "img2", "url": "uploads/Salt2.jpg" },
-          { "_id": "img3", "url": "uploads/Salt3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Salt"
-    },      
-
-    {
-        "_id": "19",
-        "categories_id": "2",
-        "productName": "Amchoor Powder",
-        "productDescription": "<p><strong>Amchoor powder</strong>, or <em>dried mango powder</em>, is made from unripe mangoes that are <strong>sun-dried</strong> and ground. It adds a <strong>tangy flavor</strong> to dishes and is widely used in <em>Indian cooking</em> — perfect for <em>curries, chutneys, marinades,</em> and snacks.</p><p>It is rich in <strong>vitamin C</strong>, which supports the <strong>immune system</strong> and promotes <strong>skin health</strong>. It also offers <strong>dietary fiber</strong> for better digestion.</p><p>Amchoor powder is believed to support <strong>weight management</strong>, offer <strong>antioxidant benefits</strong>, and help reduce <strong>sodium intake</strong> thanks to its sourness.</p><p>Its versatility allows it to be used in everything from <em>salad dressings</em> to <em>spice mixes</em>, giving a <strong>refreshing zing</strong> that enhances meals.</p>",
-        "productMainImage": "uploads/AmchoorPowder.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/AmchoorPowder1.jpg" },
-          { "_id": "img2", "url": "uploads/AmchoorPowder2.jpg" },
-          { "_id": "img3", "url": "uploads/AmchoorPowder3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "100gm", "priceForWholesaler": 380, "priceForRetailer": 450 },
-          { "_id": "p2", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p3", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 }
-        ],
-        "status": "active",
-        "slug": "Amchoor Powder"
+  {
+    "_id": "1",
+    "categories_id": "1",
+    "productName": "Black Sabut Urad Dal",
+    "productDescription": "<p><strong>Discover the wholesome goodness of Black Sabut Urad Dal</strong>, a staple in Indian cuisine.</p><p>This <strong>nutrient-rich whole black gram</strong> is not only packed with protein but also boasts a high fiber content, making it an excellent choice for a healthy diet.</p><p>Its earthy flavor and creamy texture make it perfect for <em>dals, soups</em>, and even snacks like <em>dosa</em> or <em>idli</em>.</p><p>Rich in essential vitamins and minerals, our Black Sabut Urad Dal is sourced from the finest farms, ensuring premium quality and taste.</p><p><strong>Elevate your culinary creations</strong> with this versatile ingredient!</p>",
+    "productMainImage": "uploads/BlackSabutUradDal.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/BlackSabutUradDal1.jpg"
       },
       {
-        "_id": "20",
-        "categories_id": "2",
-        "productName": "Cardamom",
-        "productDescription": "<p><strong>Cardamom</strong>, known as the <em>'queen of spices'</em>, comes from the seeds of <em>Elettaria cardamomum</em> and <em>Amomum subulatum</em>. Its <strong>sweet and spicy aroma</strong> makes it a favorite in <em>Indian, Middle Eastern,</em> and <em>Scandinavian cuisines</em>.</p><p>It's <strong>low in calories</strong> but offers essential nutrients including <strong>fiber, calcium, iron,</strong> and <strong>magnesium</strong> — all important for digestive and bone health.</p><p>Traditionally, cardamom is used for its <strong>antioxidant, anti-inflammatory,</strong> and <strong>digestive properties</strong>. It's enjoyed <em>whole or ground</em>, and works beautifully in <em>teas, desserts, spice mixes,</em> and <em>savory dishes</em>.</p><p>Its <strong>complex flavor</strong> and <strong>health benefits</strong> make cardamom a must-have for both <strong>culinary excellence</strong> and <strong>wellness</strong>.</p>",
-        "productMainImage": "uploads/Cardamom.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/Cardamom1.jpg" },
-          { "_id": "img2", "url": "uploads/Cardamom2.jpg" },
-          { "_id": "img3", "url": "uploads/Cardamom3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Cardamom"
-    },
-      
-    {
-        "_id": "21",
-        "categories_id": "2",
-        "productName": "Celery Seeds",
-        "productDescription": "<p><strong>Celery seeds</strong>, derived from the <em>Apium graveolens</em> plant, are small, aromatic seeds that pack a powerful flavor punch. Commonly used in a variety of dishes, they deliver a <strong>distinctive earthy and slightly peppery taste</strong> that enhances <em>salads, dressings, soups,</em> and <em>pickles</em>.</p><p>Nutritionally, celery seeds are <strong>low in calories</strong> but rich in <strong>dietary fiber</strong>, helping support digestive health and weight management. They are also a good source of <strong>calcium, iron,</strong> and <strong>magnesium</strong>, vital for strong bones and metabolic function.</p><p>In traditional medicine, they're known for their <strong>anti-inflammatory and diuretic properties</strong>, and are often used to support <strong>heart health</strong> and regulate <strong>blood pressure</strong>.</p><p>Whether used <em>whole or ground</em>, celery seeds are incredibly versatile and <strong>add flavor and nutrition</strong> to many recipes. A small amount goes a long way, making them an essential addition to your spice collection.</p>",
-        "productMainImage": "uploads/CelerySeeds.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/CelerySeeds1.jpg" },
-          { "_id": "img2", "url": "uploads/CelerySeeds2.jpg" },
-          { "_id": "img3", "url": "uploads/CelerySeeds3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "celery-seeds"
-    },
-
-    {
-        "_id": "22",
-        "categories_id": "2",
-        "productName": "Nutmeg",
-        "productDescription": "<p><strong>Nutmeg</strong> is a warm and aromatic spice obtained from the seed of the <em>Myristica fragrans</em> tree. With its <strong>sweet, nutty flavor</strong>, nutmeg is a cherished ingredient in both <em>sweet and savory</em> recipes, especially in <em>baked goods, sauces, curries,</em> and <em>beverages like eggnog</em>.</p><p>This spice is <strong>low in calories</strong> and offers important nutrients like <strong>fiber, calcium, iron,</strong> and <strong>magnesium</strong>, which support digestive and bone health.</p><p>Nutmeg has long been used in traditional medicine for its <strong>antioxidant, anti-inflammatory,</strong> and <strong>digestive properties</strong>. It may also help improve <em>sleep quality</em> and promote <em>relaxation</em>.</p><p>Whether <em>grated or ground</em>, nutmeg adds depth and warmth to dishes. Its <strong>rich aroma and health benefits</strong> make it a beloved kitchen staple across global cuisines.</p>",
-        "productMainImage": "uploads/Nutmeg.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/Nutmeg1.jpg" },
-          { "_id": "img2", "url": "uploads/Nutmeg2.jpg" },
-          { "_id": "img3", "url": "uploads/Nutmeg3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "nutmeg"
-    },
-
-    {
-        "_id": "23",
-        "categories_id": "2",
-        "productName": "Cardamom",
-        "productDescription": "<p><strong>Cardamom</strong>, known as the <em>'queen of spices'</em>, comes from the seeds of <em>Elettaria cardamomum</em> and <em>Amomum subulatum</em>. Its <strong>sweet and spicy aroma</strong> makes it a favorite in <em>Indian, Middle Eastern,</em> and <em>Scandinavian cuisines</em>.</p><p>It's <strong>low in calories</strong> but offers essential nutrients including <strong>fiber, calcium, iron,</strong> and <strong>magnesium</strong> — all important for digestive and bone health.</p><p>Traditionally, cardamom is used for its <strong>antioxidant, anti-inflammatory,</strong> and <strong>digestive properties</strong>. It's enjoyed <em>whole or ground</em>, and works beautifully in <em>teas, desserts, spice mixes,</em> and <em>savory dishes</em>.</p><p>Its <strong>complex flavor</strong> and <strong>health benefits</strong> make cardamom a must-have for both <strong>culinary excellence</strong> and <strong>wellness</strong>.</p>",
-        "productMainImage": "uploads/Cardamom.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/Cardamom1.jpg" },
-          { "_id": "img2", "url": "uploads/Cardamom2.jpg" },
-          { "_id": "img3", "url": "uploads/Cardamom3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "100gm", "priceForWholesaler": 180, "priceForRetailer": 220 },
-          { "_id": "p2", "size": "250gm", "priceForWholesaler": 420, "priceForRetailer": 500 },
-          { "_id": "p3", "size": "500gm", "priceForWholesaler": 800, "priceForRetailer": 950 }
-        ],
-        "status": "active",
-        "slug": "cardamom"
-    },
-
-    {
-        "_id": "24",
-        "categories_id": "2",
-        "productName": "Aniseed",
-        "productDescription": "<p><strong>Aniseed</strong>, known for its <em>sweet, aromatic flavor</em> reminiscent of licorice, is a spice derived from the <em>Pimpinella anisum</em> plant. Popular in <em>Mediterranean</em> and <em>Middle Eastern cuisines</em>, it enhances both <strong>savory and sweet dishes</strong> like baked goods, spice blends, and herbal teas.</p><p>Rich in <strong>dietary fiber, calcium,</strong> and <strong>iron</strong>, aniseed supports <strong>digestive health</strong>, bone strength, and oxygen transport. Its <strong>antioxidant properties</strong> help protect against oxidative stress.</p><p>Traditionally, aniseed has been used for its <strong>digestive, antimicrobial,</strong> and <strong>bloating-relief</strong> qualities. It can be used <em>whole or ground</em>, offering great versatility in the kitchen.</p><p>Incorporating aniseed into your meals not only <strong>boosts flavor</strong> but also adds <strong>nutritional value</strong>. Whether in teas, baked treats, or spice mixes, it's a delightful way to elevate your culinary creations.</p>",
-        "productMainImage": "uploads/Aniseed.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/Aniseed1.jpg" },
-          { "_id": "img2", "url": "uploads/Aniseed2.jpg" },
-          { "_id": "img3", "url": "uploads/Aniseed3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Aniseed"
-    },
-
-    {
-        "_id": "25",
-        "categories_id": "2",
-        "productName": "Salt",
-        "productDescription": "<p><strong>Salt</strong>, primarily composed of <em>sodium chloride</em>, is one of the most <strong>essential and widely used seasonings</strong> in kitchens around the world. Renowned for its ability to <strong>enhance flavor</strong>, salt has long been used in both cooking and food preservation.</p><p>Though it contains <strong>no calories</strong>, salt plays a vital role in the body. <strong>Sodium</strong>, its key component, is crucial for <em>regulating blood pressure, maintaining fluid balance,</em> and supporting <em>muscle and nerve function</em>. However, it should be consumed in moderation, as <strong>excess intake can lead to health issues</strong> like hypertension.</p><p>Salt comes in many forms — from <strong>table salt</strong> and <strong>sea salt</strong> to <strong>kosher salt</strong> — each offering unique textures and mineral profiles for different culinary applications. <em>Table salt</em> is ideal for everyday use, while <em>sea salt</em> is prized for its coarser grains and natural minerals.</p><p>Whether used to <strong>season vegetables</strong>, enrich marinades, or bring out the flavors in baked goods, salt remains a <strong>versatile and indispensable ingredient</strong> that elevates every dish.</p>",
-        "productMainImage": "uploads/Salt.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/Salt1.jpg" },
-          { "_id": "img2", "url": "uploads/Salt2.jpg" },
-          { "_id": "img3", "url": "uploads/Salt3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Salt"
-    },      
-
-    {
-        "_id": "26",
-        "categories_id": "2",
-        "productName": "Sugar",
-        "productDescription": "<p><strong>Sugar</strong> is a fundamental ingredient in countless recipes, known for <strong>enhancing flavor and texture</strong>. Available in various forms — <em>granulated, powdered,</em> and <em>brown</em> — sugar is a <strong>versatile component</strong> in baking, cooking, and preserving.</p><p>Beyond sweetness, sugar serves as a <strong>fermentation aid</strong> and acts as a <strong>preservative</strong> by inhibiting microbial growth. However, <strong>moderation is key</strong>, as excessive consumption may contribute to <em>obesity, type 2 diabetes,</em> and <em>dental issues</em>.</p><p>Nutritionally, sugar provides approximately <strong>387 calories per 100 grams</strong> but lacks essential vitamins and minerals. While it can be a quick <strong>energy source</strong>, a <em>balanced diet</em> should emphasize <strong>whole foods</strong> over added sugars.</p><p>Being mindful of your sugar intake supports better <strong>long-term health</strong> and helps maintain a nutritious and wholesome lifestyle.</p>",
-        "productMainImage": "uploads/Sugar.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/Sugar1.jpg" },
-          { "_id": "img2", "url": "uploads/Sugar2.jpg" },
-          { "_id": "img3", "url": "uploads/Sugar3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Sugar"
-    },
-
-    {
-        "_id": "28",
-        "categories_id": "2",
-        "productName": "Black Salt",
-        "productDescription": "<p><strong>Black salt</strong>, also known as <em>kala namak</em> or <em>Sulemani namak</em>, is a unique condiment widely used in <strong>South Asian cuisine</strong>. Its dark brown to black color comes from natural minerals such as iron and trace elements.</p><p>Known for its <strong>savory and tangy flavor</strong>, black salt is often used in salads, chutneys, snacks, and beverages like lemonade. It is <strong>lower in sodium</strong> than regular salt, making it ideal for those monitoring their sodium intake.</p><p>Rich in <strong>calcium, iron, and magnesium</strong>, it has traditionally been used in <strong>Ayurvedic medicine</strong> for its digestive and detoxifying benefits.</p><p>Its culinary uses are vast—whether <em>sprinkled on fruits</em>, <em>blended into spice mixes</em>, or used as a <strong>finishing touch</strong>—black salt adds both <strong>flavor and wellness</strong> to meals.</p>",
-        "productMainImage": "uploads/BlackSalt.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/BlackSalt1.jpg" },
-          { "_id": "img2", "url": "uploads/BlackSalt2.jpg" },
-          { "_id": "img3", "url": "uploads/BlackSalt3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Black Salt"
-    },
-
-    {
-        "_id": "29",
-        "categories_id": "2",
-        "productName": "Cumin",
-        "productDescription": "<p><strong>Cumin</strong>, sourced from the <em>Cuminum cyminum</em> plant, is a widely used spice recognized for its <strong>earthy, warm flavor</strong> and distinct aroma. Common in <strong>Indian, Middle Eastern,</strong> and <strong>Mexican cuisines</strong>, it enhances dishes like curries, soups, and spice blends.</p><p>Low in calories yet rich in nutrition, cumin is an excellent source of <strong>iron, calcium, magnesium,</strong> and <strong>dietary fiber</strong>. It supports <strong>oxygen transport, digestion,</strong> and <strong>bone health</strong>.</p><p>Cumin is valued not just for flavor, but for health benefits. It's packed with <strong>antioxidants</strong> and may help <strong>boost immunity, improve digestion,</strong> and even assist with <strong>weight management</strong>.</p><p>Used <strong>whole or ground</strong>, cumin's versatility makes it a <strong>kitchen staple</strong>. Whether <em>sprinkled over roasted vegetables</em> or <em>infused into stews</em>, cumin adds <strong>warmth and depth</strong> to every dish.</p>",
-        "productMainImage": "uploads/Cumin.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/Cumin1.jpg" },
-          { "_id": "img2", "url": "uploads/Cumin2.jpg" },
-          { "_id": "img3", "url": "uploads/Cumin3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Cumin"
-    },
-
-
-    {
-        "_id": "30",
-        "categories_id": "2",
-        "productName": "Cloves",
-        "productDescription": "<p><strong>Cloves</strong> are a highly aromatic spice harvested from the dried flower buds of the Syzygium aromaticum tree. Known for their strong, warm, and sweet flavor, cloves are widely used in spice blends, baked goods, curries, and beverages.</p><p>Rich in <strong>antioxidants, vitamins,</strong> and <strong>minerals</strong>, cloves are believed to support <strong>digestive health</strong>, reduce <strong>inflammation</strong>, and promote <strong>oral hygiene</strong>. In traditional medicine, cloves have long been used for their <strong>antibacterial and pain-relieving</strong> properties.</p><p>Whether used whole in biryanis or ground into masalas, <strong>cloves add depth and warmth</strong> to every recipe, making them an essential spice in any kitchen.</p>",
-        "productMainImage": "uploads/ClovePowder.jpg",
-        "productOtherImages": [
-        { "_id": "img1", "url": "uploads/ClovePowder1.jpg" },
-        { "_id": "img2", "url": "uploads/ClovePowder2.jpg" }
-        ],
-        "availablePackSizes": [
-        { "_id": "p1", "size": "50gm", "priceForWholesaler": 40, "priceForRetailer": 50 }
-        ],
-        "status": "active",
-        "slug": "Cloves"
-    },
-    {
-        "_id": "31",
-        "categories_id": "2",
-        "productName": "Cinnamon powder",
-        "productDescription": "<p><strong>Cinnamon powder</strong>, derived from the inner bark of <em>Cinnamomum</em> trees, is a fragrant spice cherished globally for its <strong>warm, sweet flavor</strong>. Commonly used in <strong>desserts, pastries, curries,</strong> and <strong>stews</strong>, cinnamon brings comfort and richness to dishes.</p><p>Nutritionally, it's <strong>low in calories</strong> and a good source of <strong>fiber, calcium,</strong> and <strong>iron</strong>, supporting digestive and bone health. It also contains <strong>antioxidants</strong> and may aid in <strong>blood sugar control</strong> and reducing inflammation.</p><p>From sprinkling on oatmeal to blending in smoothies or baking treats, <strong>cinnamon powder</strong> is a versatile and health-boosting addition to every kitchen.</p>",
-        "productMainImage": "uploads/Cinnamonpowder.jpg",
-        "productOtherImages": [
-        { "_id": "img1", "url": "uploads/Cinnamonpowder1.jpg" },
-        { "_id": "img2", "url": "uploads/Cinnamonpowder2.jpg" },
-        { "_id": "img3", "url": "uploads/Cinnamonpowder3.jpg" }
-        ],
-        "availablePackSizes": [
-        { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-        { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-        { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Cinnamon powder"
-    },
-      
-    {
-        "_id": "32",
-        "categories_id": "2",
-        "productName": "Haldi Powder",
-        "productDescription": "<p><strong>Haldi Powder (Turmeric Powder)</strong> is cherished for its golden hue and earthy aroma. A key ingredient in <strong>Indian cooking</strong> and <strong>Ayurvedic medicine</strong>, this spice adds depth and color to dishes like <em>curries, rice, marinades, smoothies,</em> and <em>teas</em>.</p><p>Rich in <strong>antioxidants</strong> and known for its <strong>anti-inflammatory</strong> properties, turmeric supports <strong>immune function</strong> and promotes <strong>overall wellness</strong>. Our Haldi Powder is made from <strong>premium turmeric roots</strong>, finely ground for maximum freshness and potency.</p><p>Elevate your meals and nourish your body with the vibrant flavor and health benefits of Haldi Powder.</p>",
-        "productMainImage": "uploads/HaldiPowder.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/HaldiPowder1.jpg" },
-          { "_id": "img2", "url": "uploads/HaldiPowder2.jpg" },
-          { "_id": "img3", "url": "uploads/HaldiPowder3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Haldi Powder"
-    },
-    {
-        "_id": "33",
-        "categories_id": "2",
-        "productName": "Poppy Seeds",
-        "productDescription": "<p><strong>Poppy seeds</strong> are tiny, oil-rich seeds derived from the <em>Papaver somniferum</em> plant, known for their <strong>nutty flavor</strong> and delightful <strong>crunch</strong>. Used in a wide variety of global cuisines—from <em>Middle Eastern</em> to <em>Indian</em> to <em>European</em>—they enhance both sweet and savory dishes.</p><p>These seeds are rich in <strong>healthy fats</strong> (especially polyunsaturated), <strong>protein</strong>, and <strong>fiber</strong>, making them excellent for <strong>digestive health</strong>. They also provide essential minerals like <strong>calcium, iron,</strong> and <strong>magnesium</strong>, which support <strong>bone strength</strong> and <strong>overall well-being</strong>.</p><p>Traditionally used to promote relaxation and ease digestion, poppy seeds also contain <strong>antioxidants</strong> that may aid in <strong>heart health</strong>. Sprinkle them on baked goods, stir into sauces, or use them whole or ground—<strong>poppy seeds are a nutritious and flavorful addition</strong> to any dish.</p>",
-        "productMainImage": "uploads/PoppySeeds.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/PoppySeeds1.jpg" },
-          { "_id": "img2", "url": "uploads/PoppySeeds2.jpg" },
-          { "_id": "img3", "url": "uploads/PoppySeeds3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Poppy Seeds"
-    },
-
-    {
-        "_id": "34",
-        "categories_id": "2",
-        "productName": "Nutmeg Powder",
-        "productDescription": "<p><strong>Nutmeg Powder</strong>, made from finely ground nutmeg seeds of the <em>Myristica fragrans</em> tree, delivers a warm, sweet, and subtly nutty flavor that enhances both sweet and savory dishes. It's a staple in baking—perfect for <strong>cookies, cakes, pies</strong>—and widely used in <strong>beverages</strong> like <em>eggnog</em> and <em>mulled wine</em>.</p><p>In savory recipes, nutmeg brings richness to <strong>sauces, soups,</strong> and <strong>stews</strong>. Despite being low in calories, it provides <strong>dietary fiber</strong> and essential nutrients like <strong>calcium, iron,</strong> and <strong>magnesium</strong>, supporting overall wellness.</p><p>Nutmeg is also known for its potential health perks—it contains <strong>antioxidants</strong>, may help reduce inflammation, and is traditionally used to promote <strong>relaxation and better sleep</strong>.</p><p>Used in moderation due to its strong flavor, nutmeg powder can be sprinkled, blended, or cooked into recipes. Its rich aroma and health benefits make it a cherished addition to kitchens worldwide.</p>",
-        "productMainImage": "uploads/NutmegPowder.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/NutmegPowder1.jpg" },
-          { "_id": "img2", "url": "uploads/NutmegPowder2.jpg" },
-          { "_id": "img3", "url": "uploads/NutmegPowder3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Nutmeg Powder"
-    },
-    {
-        "_id": "35",
-        "categories_id": "2",
-        "productName": "White Pepper",
-        "productDescription": "<p><strong>White Pepper</strong>, sourced from the dried seeds of the <em>Piper nigrum</em> plant, offers a <strong>milder, smoother flavor</strong> compared to black pepper. Its <strong>light color</strong> makes it ideal for <em>creamy dishes, soups,</em> and <em>white sauces</em>, where it maintains the visual appeal without dark specks.</p><p>Nutritionally, it's low in calories and provides <strong>dietary fiber</strong> along with essential minerals like <strong>calcium, iron, magnesium,</strong> and <strong>potassium</strong>. These support digestive health and contribute to overall wellness.</p><p>White pepper contains <strong>piperine</strong>, which may enhance <strong>nutrient absorption</strong> and offer <strong>anti-inflammatory benefits</strong>. It's a go-to ingredient in many Asian recipes and a perfect substitute when a subtler heat is preferred.</p><p>Whether you're preparing a <em>light soup</em> or a <em>classic béchamel sauce</em>, white pepper's gentle kick and versatility make it an essential in your spice rack.</p>",
-        "productMainImage": "uploads/WhitePepper.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/WhitePepper1.jpg" },
-          { "_id": "img2", "url": "uploads/WhitePepper2.jpg" },
-          { "_id": "img3", "url": "uploads/WhitePepper3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "White Pepper"
-    },
-    
-    {
-        "_id": "36",
-        "categories_id": "3",
-        "productName": "Almonds Badaam",
-        "productDescription": "<p><strong>Almonds</strong>, known as <em>badaam</em> in many South Asian cultures, are <strong>nutrient-dense nuts</strong> packed with healthy fats and plant-based protein. With <strong>21.2g protein per 100g</strong>, they're a great choice for <em>vegetarians and vegans</em>.</p><p>Rich in <strong>vitamin E</strong> — a powerful antioxidant — along with <strong>calcium, magnesium,</strong> and <strong>iron</strong>, almonds support <em>heart health, bones,</em> and <em>metabolism</em>.</p><p>Enjoy them <em>raw, roasted, or blanched</em>. From <em>almond flour desserts</em> to savory curries and salads, almonds bring a <strong>delightful crunch and natural sweetness</strong>.</p><p>Add badaam to your daily diet for a <strong>wholesome, satisfying snack</strong> that boosts overall well-being.</p>",
-        "productMainImage": "uploads/AlmondsBadaam.jpg",
-        "productOtherImages": [
-        { "_id": "img1", "url": "uploads/AlmondsBadaam1.jpg" },
-        { "_id": "img2", "url": "uploads/AlmondsBadaam2.jpg" },
-        { "_id": "img3", "url": "uploads/AlmondsBadaam3.jpg" }
-        ],
-        "availablePackSizes": [
-        { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-        { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-        { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Almonds Badaam"
-    },
-    {
-        "_id": "37",
-        "categories_id": "3",
-        "productName": "Kaju",
-        "productDescription": "<p><strong>Cashews</strong>, popularly known as <em>kaju</em>, are buttery, kidney-shaped nuts packed with <strong>healthy fats</strong> and <strong>18.2g protein per 100g</strong>. They're a staple in <em>Indian cooking</em> and a beloved <strong>plant-based protein</strong> source.</p><p>Loaded with <strong>magnesium</strong>, they support <em>muscle function, nerve health,</em> and <em>bone strength</em>. Their <strong>monounsaturated fats</strong> help maintain <strong>heart health</strong> and reduce bad cholesterol.</p><p>Enjoy kaju <em>raw, roasted, in curries, or sweets</em> like kaju katli. Their <strong>creamy texture and sweet flavor</strong> make them perfect for <strong>snacks and cooking</strong>.</p><p>Add them to your pantry for a <strong>nutritious, versatile ingredient</strong> that elevates both sweet and savory dishes.</p>",
-        "productMainImage": "uploads/Kaju.jpg",
-        "productOtherImages": [
-        { "_id": "img1", "url": "uploads/Kaju1.jpg" },
-        { "_id": "img2", "url": "uploads/Kaju2.jpg" },
-        { "_id": "img3", "url": "uploads/Kaju3.jpg" }
-        ],
-        "availablePackSizes": [
-        { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-        { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-        { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Kaju"
-    },
-    {
-        "_id": "38",
-        "categories_id": "3",
-        "productName": "Kimia Dates",
-        "productDescription": "<p><strong>Kimia dates</strong> are premium, soft, chewy dates sourced from the Middle East, prized for their <strong>natural sweetness</strong> and <em>dense nutritional profile</em>. With <strong>75g carbs per 100g</strong>, they offer a <strong>quick energy boost</strong> perfect for active lifestyles.</p><p>They're rich in <strong>dietary fiber</strong> and essential minerals like <strong>potassium, magnesium,</strong> and <strong>calcium</strong>, supporting <em>heart health, digestion,</em> and <em>muscle function</em>.</p><p>Use Kimia dates in <em>smoothies, desserts, or energy bars</em>. Their <strong>natural sugar</strong> makes them a <strong>healthier alternative to refined sweeteners</strong>.</p><p>Whether enjoyed as a snack or a culinary ingredient, Kimia dates are a <strong>wholesome, flavorful addition</strong> to a balanced diet.</p>",
-        "productMainImage": "uploads/KimiaDates.jpg",
-        "productOtherImages": [
-        { "_id": "img1", "url": "uploads/KimiaDates1.jpg" },
-        { "_id": "img2", "url": "uploads/KimiaDates2.jpg" },
-        { "_id": "img3", "url": "uploads/KimiaDates3.jpg" }
-        ],
-        "availablePackSizes": [
-        { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-        { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-        { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Kimia Dates"
-    },   
-    
-    {
-        "_id": "39",
-        "categories_id": "3",
-        "productName": "Raisins Kishmish",
-        "productDescription": "<p><strong>Raisins</strong>, or <em>kishmish</em>, are dried grapes celebrated for their <strong>sweet flavor</strong> and <em>chewy texture</em>. These naturally sweet treats are packed with <strong>nutrients</strong>, making them a favorite for <em>snacking and baking</em>.</p><p>With about <strong>79g of carbohydrates per 100g</strong>, mostly from <strong>natural sugars</strong>, they deliver a <em>quick energy boost</em>, ideal for athletes or anyone needing a quick pick-me-up.</p><p>Raisins are a good source of <strong>dietary fiber</strong>, aiding <em>digestion</em> and supporting a <em>healthy gut</em>. They also offer essential minerals like <strong>potassium, calcium,</strong> and <strong>iron</strong>, promoting <em>heart health</em> and <em>strong bones</em>.</p><p>Rich in <strong>antioxidants</strong> such as polyphenols, raisins help combat <em>oxidative stress</em>. Enjoy them in <em>cereals, salads, baked goods,</em> or on their own. Their <strong>natural sweetness</strong> also makes them a <em>healthier alternative to refined sugar</em>.</p>",
-        "productMainImage": "uploads/RaisinsKishmish.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/RaisinsKishmish1.jpg" },
-          { "_id": "img2", "url": "uploads/RaisinsKishmish2.jpg" },
-          { "_id": "img3", "url": "uploads/RaisinsKishmish3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "250gm", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "500gm", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "1kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Raisins Kishmish"
-    },
-
-    {
-        "_id": "40",
-        "categories_id": "4",
-        "productName": "Gehu Atta",
-        "productDescription": "<p><strong>Gehu atta</strong>, or <em>whole wheat flour</em>, is a <strong>nutritious staple</strong> made from finely ground <strong>whole wheat grains</strong>. It retains the bran, germ, and endosperm, offering a rich supply of <strong>dietary fiber</strong>, <strong>protein</strong>, and minerals like <strong>iron</strong> and <strong>magnesium</strong>.</p><p>With approximately <strong>13.2g protein per 100g</strong>, it supports <em>muscle development</em> and contributes to <em>overall health</em>. Its <strong>fiber content</strong> aids <em>digestion</em> and helps maintain a <em>balanced diet</em>.</p><p>Gehu atta is perfect for making <em>rotis, parathas, puris,</em> and even <em>baked goods</em>. It has a <strong>nutty flavor</strong> and a <strong>dense texture</strong> that enhances the nutritional value of every meal.</p><p>Choosing gehu atta is embracing <strong>whole grain goodness</strong> for your family — a wholesome, versatile ingredient that supports <em>daily nourishment</em>.</p>",
-        "productMainImage": "uploads/GehuAtta.jpg",
-        "productOtherImages": [
-          { "_id": "img1", "url": "uploads/GehuAtta1.jpg" },
-          { "_id": "img2", "url": "uploads/GehuAtta2.jpg" },
-          { "_id": "img3", "url": "uploads/GehuAtta3.jpg" }
-        ],
-        "availablePackSizes": [
-          { "_id": "p1", "size": "5kg", "priceForWholesaler": 40, "priceForRetailer": 50 },
-          { "_id": "p2", "size": "10kg", "priceForWholesaler": 190, "priceForRetailer": 220 },
-          { "_id": "p3", "size": "30kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
-        ],
-        "status": "active",
-        "slug": "Gehu Atta"
-    }      
-
+        "_id": "img2",
+        "url": "uploads/BlackSabutUradDal2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/BlackSabutUradDal3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 35,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 165,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 320,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Black Sabut Urad Dal"
+  },
+  {
+    "_id": "2",
+    "categories_id": "1",
+    "productName": "Brown Chana",
+    "productDescription": "<p><strong>Discover the wholesome goodness of Brown Chana (Brown Chickpeas)</strong>, a nutritious legume known for its hearty texture and rich flavor.</p><p>Packed with <strong>protein and dietary fiber</strong>, these chickpeas are ideal for a range of dishes, including <em>stews, salads</em>, and <em>snacks</em>.</p><p>They are a fantastic source of <strong>essential nutrients</strong>, making them perfect for <em>health-conscious eaters</em> and those following <em>vegetarian or vegan diets</em>.</p><p>Our Brown Chana is carefully sourced to ensure premium quality, allowing you to enjoy their <strong>delicious taste and health benefits</strong> in every bite.</p><p><strong>Enhance your meals</strong> with the wholesome goodness of Brown Chana!</p></div>",
+    "productMainImage": "uploads/BrownChana.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/BrownChana1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/BrownChana2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/BrownChana3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 35,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 165,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 320,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Brown Chana"
+  },
+  {
+    "_id": "3",
+    "categories_id": "1",
+    "productName": "Chana Daal",
+    "productDescription": "<p>This versatile legume is a staple in Indian cuisine, celebrated for its high protein content and fiber. Ideal for making delicious dals, curries, and salads, Chana Daal adds a hearty texture and nutty flavor to your meals. Sourced from premium farms, our Chana Daal is carefully cleaned and packaged to ensure freshness. Whether you're preparing a traditional dish or experimenting in the kitchen, Chana Daal is the perfect ingredient to enhance your culinary creations and support a healthy diet!</p>",
+    "productMainImage": "uploads/ChanaDaal.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/ChanaDaal1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/ChanaDaal2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/ChanaDaal3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Chana Daal"
+  },
+  {
+    "_id": "4",
+    "categories_id": "1",
+    "productName": "Moong Sabut",
+    "productDescription": "<p>Known for its rich protein content and high fiber, this versatile legume is perfect for a variety of dishes, including soups, dals, salads, and stir-fries. Sourced from the best farms, our Moong Sabut is not only delicious but also packed with essential vitamins and minerals, making it an excellent choice for health-conscious individuals and those following vegetarian or vegan diets. Enjoy the earthy flavor and numerous health benefits of Moong Sabut in your meals today!</p>",
+    "productMainImage": "uploads/MoongSabut.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/MoongSabut1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/MoongSabut2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/MoongSabut3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Moong Sabut"
+  },
+  {
+    "_id": "5",
+    "categories_id": "1",
+    "productName": "Moong Dal",
+    "productDescription": "<p><strong>Discover the wholesome goodness of Black Sabut Urad Dal</strong>, a staple in Indian cuisine.</p><p>This <strong>nutrient-rich whole black gram</strong> is not only packed with protein but also boasts a high fiber content, making it an excellent choice for a healthy diet.</p><p>Its earthy flavor and creamy texture make it perfect for <em>dals, soups</em>, and even snacks like <em>dosa</em> or <em>idli</em>.</p><p>Rich in essential vitamins and minerals, our Black Sabut Urad Dal is sourced from the finest farms, ensuring premium quality and taste.</p><p><strong>Elevate your culinary creations</strong> with this versatile ingredient!</p>",
+    "productMainImage": "uploads/MoongDal.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/MoongDal1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/MoongDal2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/MoongDal3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Moong Dal"
+  },
+  {
+    "_id": "6",
+    "categories_id": "1",
+    "productName": "Toor Daal",
+    "productDescription": "<p><strong>Toor dal</strong>, also known as split pigeon peas, is a staple legume in Indian cuisine, celebrated for its <strong>nutritional value</strong> and versatility in various dishes.</p><p>Rich in <strong>protein and fiber</strong>, it serves as an excellent plant-based protein source, making it especially popular among <em>vegetarians and vegans</em>.</p><p>Toor dal is commonly used in <em>curries, soups,</em> and <em>stews</em>. It can be prepared as a comforting dal, often paired with <strong>rice or flatbreads</strong>, or incorporated into <em>salads or snacks</em> for a protein boost.</p><p>For optimal texture and flavor, <strong>soaking toor dal</strong> before cooking can reduce cooking time. Spices like <em>turmeric, cumin,</em> and <em>mustard seeds</em> are often used to enhance its taste.</p><p>Toor dal can be <em>pressure-cooked or boiled</em>, making it a flexible and essential ingredient in your kitchen.</p>",
+    "productMainImage": "uploads/ToorDaal.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/ToorDaal1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/ToorDaal2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/ToorDaal3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Toor Daal"
+  },
+  {
+    "_id": "7",
+    "categories_id": "2",
+    "productName": "Vanilla",
+    "productDescription": "<p><strong>Vanilla</strong>, derived from the orchids of the genus <em>Vanilla</em>, is one of the most beloved and widely used flavorings in the world.</p><p>Known for its <strong>sweet, creamy aroma</strong>, vanilla enhances the flavors of <em>ice creams, cakes, custards,</em> and more. It is available in various forms, including <strong>whole beans, extract,</strong> and <strong>powder</strong>, each offering unique flavor profiles.</p><p>Nutritionally, vanilla is <em>low in calories</em> and contains trace amounts of essential nutrients. While it lacks significant protein or fats, it is <strong>rich in antioxidants</strong> that may help combat oxidative stress.</p><p>Beyond the kitchen, vanilla has been traditionally valued for its <strong>anti-inflammatory and calming properties</strong>, often used in <em>aromatherapy</em> to promote relaxation and reduce stress.</p><p>In cooking, <strong>vanilla extract</strong> is the most common form, capturing the essence of the beans. Its versatility allows it to complement both <em>sweet and savory</em> dishes, making it an indispensable kitchen ingredient.</p><p>With its <strong>delightful flavor and aromatic qualities</strong>, vanilla continues to elevate the taste and experience of countless recipes.</p>",
+    "productMainImage": "uploads/Vanilla.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Vanilla1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Vanilla2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Vanilla3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "100gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "200gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      }
+    ],
+    "status": "active",
+    "slug": "Vanilla"
+  },
+  {
+    "_id": "8",
+    "categories_id": "2",
+    "productName": "Black Pepper",
+    "productDescription": "<p><strong>Black pepper</strong>, often referred to as the <em>'king of spices'</em>, is one of the most popular spices worldwide. Derived from the dried berries of the <em>Piper nigrum</em> plant, black pepper is known for its <strong>sharp, pungent flavor</strong> and is used in various cuisines to enhance the taste of countless dishes.</p><p>It is a staple seasoning in kitchens globally, commonly used in both <em>savory and sweet</em> recipes.</p><p>Nutritionally, black pepper is <em>low in calories</em> yet <strong>rich in beneficial compounds</strong>. It contains <strong>piperine</strong>, which may aid digestion and enhance the absorption of certain nutrients. With a notable amount of <strong>dietary fiber</strong>, it supports digestive health and helps maintain a feeling of fullness.</p><p>In addition to its culinary uses, black pepper offers a range of <strong>potential health benefits</strong>, including <em>antioxidant and anti-inflammatory</em> properties. It may also promote <strong>respiratory health</strong> and improve <strong>blood circulation</strong>.</p><p>Black pepper can be used <em>whole or freshly ground</em>, making it a versatile ingredient in <strong>spice blends, marinades,</strong> and <strong>dressings</strong>. Its ability to elevate flavors makes it an <strong>essential addition</strong> to any spice collection, enhancing the culinary experience with its distinctive warmth and aroma.</p>",
+    "productMainImage": "uploads/BlackPepper.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/BlackPepper1.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Black Pepper"
+  },
+  {
+    "_id": "9",
+    "categories_id": "2",
+    "productName": "Star Anise",
+    "productDescription": "<p><strong>Star anise</strong>, derived from the fruit of the <em>Illicium verum</em> tree, is a star-shaped spice that boasts a <strong>strong, sweet, and licorice-like flavor</strong>. Commonly used in <em>Chinese and Southeast Asian cuisines</em>, star anise is a key ingredient in dishes such as <strong>Chinese five-spice powder</strong> and is often used to flavor <em>broths, soups,</em> and <em>braises</em>.</p><p>Nutritionally, star anise is <em>low in calories</em> yet <strong>rich in essential nutrients</strong>. It provides a good source of <strong>dietary fiber</strong>, which supports digestive health, along with important minerals like <strong>calcium, iron,</strong> and <strong>magnesium</strong> that contribute to overall well-being.</p><p>Star anise is also known for its <strong>potential health benefits</strong>. It contains <strong>antioxidants</strong> and has been traditionally used for its <em>antimicrobial</em> and <em>anti-inflammatory</em> properties. Some studies suggest that it may <strong>aid digestion, boost the immune system,</strong> and <strong>support respiratory health</strong>.</p><p>In culinary applications, star anise can be used <em>whole or ground</em>. When used whole, it adds a <strong>visually appealing element</strong> to dishes and infuses a rich flavor during cooking. Its <strong>unique taste</strong> enhances both <em>savory and sweet</em> recipes, making it a <strong>versatile spice</strong> in many kitchens. With its distinct flavor profile and health benefits, star anise is a <strong>treasured ingredient</strong> that elevates the taste of a variety of dishes.</p>",
+    "productMainImage": "uploads/StarAnise.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/StarAnise1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/StarAnise2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Star Anise3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Star Anise"
+  },
+  {
+    "_id": "10",
+    "categories_id": "2",
+    "productName": "Red Chill",
+    "productDescription": "<p><strong>Red chili</strong>, derived from the <em>Capsicum</em> species, is a vibrant spice known for its <strong>bold flavor and heat</strong>. Widely used in various cuisines around the world, red chili can be found in <em>fresh, dried,</em> and <em>powdered forms</em>. It is a key ingredient in <strong>spice blends, sauces,</strong> and <strong>marinades</strong>, adding depth and warmth to dishes ranging from <em>curries and stews</em> to <em>salsas and stir-fries</em>.</p><p>Nutritionally, red chili is <em>low in calories</em> but <strong>rich in essential nutrients</strong>. It is a good source of <strong>dietary fiber</strong>, which aids digestion, and contains vitamins and minerals, including <strong>vitamin C, potassium,</strong> and <strong>iron</strong>. These nutrients contribute to overall health and support immune function.</p><p>Red chili is also celebrated for its <strong>potential health benefits</strong>. It contains <strong>capsaicin</strong>, the compound responsible for its heat, which may help <em>boost metabolism, promote fat burning,</em> and <em>alleviate pain</em>. Additionally, red chili has <strong>antioxidant properties</strong> and may improve <em>cardiovascular health</em>.</p><p>In cooking, red chili can be used in various forms—<em>fresh for a bright, zesty flavor; dried for concentrated heat;</em> or <em>ground into chili powder</em> for seasoning. Its <strong>versatility</strong> makes red chili an essential ingredient in many kitchens, enhancing the <strong>flavor and health benefits</strong> of a wide range of dishes.</p>",
+    "productMainImage": "uploads/RedChill.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/RedChill1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/RedChill2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/RedChill3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Red Chill"
+  },
+  {
+    "_id": "11",
+    "categories_id": "2",
+    "productName": "Bay Leaf",
+    "productDescription": "<p><strong>Bay leaves</strong>, derived from the <em>Laurus nobilis</em> tree, are aromatic leaves commonly used in cooking for their <strong>distinctive flavor and fragrance</strong>. Often used in <em>Mediterranean, Indian,</em> and <em>Asian cuisines</em>, bay leaves add depth to a variety of dishes, including <strong>soups, stews,</strong> and <strong>sauces</strong>. They are typically used whole during cooking and removed before serving, as their tough texture makes them inedible.</p><p>Nutritionally, bay leaves are <em>low in calories</em> but <strong>rich in essential vitamins and minerals</strong>. They are a source of <strong>dietary fiber</strong>, which supports digestive health, and contain <strong>antioxidants</strong> that may help reduce inflammation and promote overall well-being.</p><p>In addition to their culinary uses, bay leaves have been valued in <strong>traditional medicine</strong> for their potential health benefits, including <em>aiding digestion</em> and <em>relieving respiratory conditions</em>. Their <strong>unique aroma and flavor</strong> make them a versatile ingredient in both <em>savory and sweet dishes</em>, enhancing the overall taste profile. Whether used in <strong>cooking</strong> or as a flavor enhancer in <em>herbal teas</em>, bay leaves are an essential addition to any spice collection.</p>",
+    "productMainImage": "uploads/BayLeaf.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/BayLeaf1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/BayLeaf2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/BayLeaf3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "50gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "100gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      }
+    ],
+    "status": "active",
+    "slug": "Bay Leaf"
+  },
+  {
+    "_id": "12",
+    "categories_id": "2",
+    "productName": "Cardamom",
+    "productDescription": "<p><strong>Cardamom</strong>, often referred to as the <em>'queen of spices'</em>, is a highly aromatic spice derived from the seeds of plants in the <em>Zingiberaceae</em> family, primarily <em>Elettaria cardamomum</em> and <em>Amomum subulatum</em>. Known for its <strong>sweet and slightly spicy flavor</strong>, cardamom is widely used in both <strong>savory and sweet dishes</strong> across various cuisines, particularly in <em>Indian, Middle Eastern,</em> and <em>Scandinavian cooking</em>.</p><p>Nutritionally, cardamom is <em>low in calories</em> but <strong>rich in essential nutrients</strong>. It contains significant amounts of <strong>dietary fiber</strong>, which aids digestion and promotes gut health. The spice is also a good source of <strong>calcium, iron,</strong> and <strong>magnesium</strong>, which are vital for maintaining overall health.</p><p>In addition to its culinary uses, cardamom has been traditionally valued for its <strong>medicinal properties</strong>. It is known for its potential <strong>antioxidant, anti-inflammatory,</strong> and <strong>digestive benefits</strong>. The spice can be used <em>whole or ground</em>, making it versatile for use in <strong>spice blends, teas, desserts,</strong> and <strong>savory dishes</strong>. With its <strong>unique flavor profile</strong> and <strong>numerous health benefits</strong>, cardamom is an essential ingredient in many kitchens, adding depth and complexity to culinary creations while also promoting wellness.</p>",
+    "productMainImage": "uploads/Cardamom.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Cardamom1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Cardamom2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Cardamom3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Cardamom"
+  },
+  {
+    "_id": "13",
+    "categories_id": "2",
+    "productName": "Fennel Seeds",
+    "productDescription": "<p><strong>Fennel seeds</strong>, derived from the <em>Foeniculum vulgare</em> plant, are <strong>aromatic seeds</strong> known for their <strong>sweet, licorice-like flavor</strong>. Commonly used in <em>Mediterranean, Indian,</em> and <em>Middle Eastern cuisines</em>, fennel seeds are <strong>versatile</strong> and can enhance a variety of dishes, from <strong>curries and soups</strong> to <strong>salads and baked goods</strong>. They are also a key ingredient in spice blends like <em>panch phoron</em> and are often used in <em>herbal teas</em>.</p><p>Nutritionally, fennel seeds are <em>low in calories</em> but <strong>rich in essential nutrients</strong>. They provide a significant amount of <strong>dietary fiber</strong>, which aids digestion and promotes gut health. With high levels of <strong>calcium, iron,</strong> and <strong>magnesium</strong>, fennel seeds support <strong>bone health</strong> and overall well-being.</p><p>Beyond their culinary applications, fennel seeds are valued for their potential <strong>health benefits</strong>. They are known for their <strong>antioxidant properties</strong> and may help with <em>digestive issues</em>, <em>reduce bloating</em>, and support <em>respiratory health</em>. Traditionally, fennel seeds have also been used to <strong>freshen breath</strong> and as a <strong>natural remedy</strong> for various ailments.</p><p>Fennel seeds can be used <em>whole or ground</em>, adding <strong>versatility</strong> to their culinary uses. Whether incorporated into <strong>savory dishes</strong> or used in <strong>desserts</strong>, fennel seeds bring a <strong>unique flavor</strong> and <strong>numerous health benefits</strong>, making them a treasured spice in many kitchens.</p>",
+    "productMainImage": "uploads/FennelSeeds.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/FennelSeeds1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/FennelSeeds2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/FennelSeeds3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Fennel Seeds"
+  },
+  {
+    "_id": "14",
+    "categories_id": "2",
+    "productName": "Celery Seeds",
+    "productDescription": "<p><strong>Celery seeds</strong>, derived from the <em>Apium graveolens</em> plant, are small, aromatic seeds that pack a powerful flavor punch. Commonly used in a variety of dishes, they deliver a <strong>distinctive earthy and slightly peppery taste</strong> that enhances <em>salads, dressings, soups,</em> and <em>pickles</em>.</p><p>Nutritionally, celery seeds are <strong>low in calories</strong> but rich in <strong>dietary fiber</strong>, helping support digestive health and weight management. They are also a good source of <strong>calcium, iron,</strong> and <strong>magnesium</strong>, vital for strong bones and metabolic function.</p><p>In traditional medicine, they're known for their <strong>anti-inflammatory and diuretic properties</strong>, and are often used to support <strong>heart health</strong> and regulate <strong>blood pressure</strong>.</p><p>Whether used <em>whole or ground</em>, celery seeds are incredibly versatile and <strong>add flavor and nutrition</strong> to many recipes. A small amount goes a long way, making them an essential addition to your spice collection.</p>",
+    "productMainImage": "uploads/CelerySeeds.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/CelerySeeds1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/CelerySeeds2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/CelerySeeds3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "celery-seeds"
+  },
+  {
+    "_id": "15",
+    "categories_id": "2",
+    "productName": "Nutmeg",
+    "productDescription": "<p><strong>Nutmeg</strong> is a warm and aromatic spice obtained from the seed of the <em>Myristica fragrans</em> tree. With its <strong>sweet, nutty flavor</strong>, nutmeg is a cherished ingredient in both <em>sweet and savory</em> recipes, especially in <em>baked goods, sauces, curries,</em> and <em>beverages like eggnog</em>.</p><p>This spice is <strong>low in calories</strong> and offers important nutrients like <strong>fiber, calcium, iron,</strong> and <strong>magnesium</strong>, which support digestive and bone health.</p><p>Nutmeg has long been used in traditional medicine for its <strong>antioxidant, anti-inflammatory,</strong> and <strong>digestive properties</strong>. It may also help improve <em>sleep quality</em> and promote <em>relaxation</em>.</p><p>Whether <em>grated or ground</em>, nutmeg adds depth and warmth to dishes. Its <strong>rich aroma and health benefits</strong> make it a beloved kitchen staple across global cuisines.</p>",
+    "productMainImage": "uploads/Nutmeg.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Nutmeg1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Nutmeg2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Nutmeg3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "nutmeg"
+  },
+  {
+    "_id": "16",
+    "categories_id": "2",
+    "productName": "Cardamom",
+    "productDescription": "<p><strong>Cardamom</strong>, known as the <em>'queen of spices'</em>, comes from the seeds of <em>Elettaria cardamomum</em> and <em>Amomum subulatum</em>. Its <strong>sweet and spicy aroma</strong> makes it a favorite in <em>Indian, Middle Eastern,</em> and <em>Scandinavian cuisines</em>.</p><p>It's <strong>low in calories</strong> but offers essential nutrients including <strong>fiber, calcium, iron,</strong> and <strong>magnesium</strong> — all important for digestive and bone health.</p><p>Traditionally, cardamom is used for its <strong>antioxidant, anti-inflammatory,</strong> and <strong>digestive properties</strong>. It's enjoyed <em>whole or ground</em>, and works beautifully in <em>teas, desserts, spice mixes,</em> and <em>savory dishes</em>.</p><p>Its <strong>complex flavor</strong> and <strong>health benefits</strong> make cardamom a must-have for both <strong>culinary excellence</strong> and <strong>wellness</strong>.</p>",
+    "productMainImage": "uploads/Cardamom.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Cardamom1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Cardamom2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Cardamom3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Cardamom"
+  },
+  {
+    "_id": "17",
+    "categories_id": "2",
+    "productName": "Aniseed",
+    "productDescription": "<p><strong>Aniseed</strong>, known for its <em>sweet, aromatic flavor</em> reminiscent of licorice, is a spice derived from the <em>Pimpinella anisum</em> plant. Popular in <em>Mediterranean</em> and <em>Middle Eastern cuisines</em>, it enhances both <strong>savory and sweet dishes</strong> like baked goods, spice blends, and herbal teas.</p><p>Rich in <strong>dietary fiber, calcium,</strong> and <strong>iron</strong>, aniseed supports <strong>digestive health</strong>, bone strength, and oxygen transport. Its <strong>antioxidant properties</strong> help protect against oxidative stress.</p><p>Traditionally, aniseed has been used for its <strong>digestive, antimicrobial,</strong> and <strong>bloating-relief</strong> qualities. It can be used <em>whole or ground</em>, offering great versatility in the kitchen.</p><p>Incorporating aniseed into your meals not only <strong>boosts flavor</strong> but also adds <strong>nutritional value</strong>. Whether in teas, baked treats, or spice mixes, it's a delightful way to elevate your culinary creations.</p>",
+    "productMainImage": "uploads/Aniseed.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Aniseed1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Aniseed2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Aniseed3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Aniseed"
+  },
+  {
+    "_id": "18",
+    "categories_id": "2",
+    "productName": "Salt",
+    "productDescription": "<p><strong>Salt</strong>, primarily composed of <em>sodium chloride</em>, is one of the most <strong>essential and widely used seasonings</strong> in kitchens around the world. Renowned for its ability to <strong>enhance flavor</strong>, salt has long been used in both cooking and food preservation.</p><p>Though it contains <strong>no calories</strong>, salt plays a vital role in the body. <strong>Sodium</strong>, its key component, is crucial for <em>regulating blood pressure, maintaining fluid balance,</em> and supporting <em>muscle and nerve function</em>. However, it should be consumed in moderation, as <strong>excess intake can lead to health issues</strong> like hypertension.</p><p>Salt comes in many forms — from <strong>table salt</strong> and <strong>sea salt</strong> to <strong>kosher salt</strong> — each offering unique textures and mineral profiles for different culinary applications. <em>Table salt</em> is ideal for everyday use, while <em>sea salt</em> is prized for its coarser grains and natural minerals.</p><p>Whether used to <strong>season vegetables</strong>, enrich marinades, or bring out the flavors in baked goods, salt remains a <strong>versatile and indispensable ingredient</strong> that elevates every dish.</p>",
+    "productMainImage": "uploads/Salt.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Salt1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Salt2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Salt3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Salt"
+  },
+  {
+    "_id": "19",
+    "categories_id": "2",
+    "productName": "Amchoor Powder",
+    "productDescription": "<p><strong>Amchoor powder</strong>, or <em>dried mango powder</em>, is made from unripe mangoes that are <strong>sun-dried</strong> and ground. It adds a <strong>tangy flavor</strong> to dishes and is widely used in <em>Indian cooking</em> — perfect for <em>curries, chutneys, marinades,</em> and snacks.</p><p>It is rich in <strong>vitamin C</strong>, which supports the <strong>immune system</strong> and promotes <strong>skin health</strong>. It also offers <strong>dietary fiber</strong> for better digestion.</p><p>Amchoor powder is believed to support <strong>weight management</strong>, offer <strong>antioxidant benefits</strong>, and help reduce <strong>sodium intake</strong> thanks to its sourness.</p><p>Its versatility allows it to be used in everything from <em>salad dressings</em> to <em>spice mixes</em>, giving a <strong>refreshing zing</strong> that enhances meals.</p>",
+    "productMainImage": "uploads/AmchoorPowder.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/AmchoorPowder1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/AmchoorPowder2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/AmchoorPowder3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "100gm",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      },
+      {
+        "_id": "p2",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p3",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      }
+    ],
+    "status": "active",
+    "slug": "Amchoor Powder"
+  },
+  {
+    "_id": "20",
+    "categories_id": "2",
+    "productName": "Cardamom",
+    "productDescription": "<p><strong>Cardamom</strong>, known as the <em>'queen of spices'</em>, comes from the seeds of <em>Elettaria cardamomum</em> and <em>Amomum subulatum</em>. Its <strong>sweet and spicy aroma</strong> makes it a favorite in <em>Indian, Middle Eastern,</em> and <em>Scandinavian cuisines</em>.</p><p>It's <strong>low in calories</strong> but offers essential nutrients including <strong>fiber, calcium, iron,</strong> and <strong>magnesium</strong> — all important for digestive and bone health.</p><p>Traditionally, cardamom is used for its <strong>antioxidant, anti-inflammatory,</strong> and <strong>digestive properties</strong>. It's enjoyed <em>whole or ground</em>, and works beautifully in <em>teas, desserts, spice mixes,</em> and <em>savory dishes</em>.</p><p>Its <strong>complex flavor</strong> and <strong>health benefits</strong> make cardamom a must-have for both <strong>culinary excellence</strong> and <strong>wellness</strong>.</p>",
+    "productMainImage": "uploads/Cardamom.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Cardamom1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Cardamom2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Cardamom3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Cardamom"
+  },
+  {
+    "_id": "21",
+    "categories_id": "2",
+    "productName": "Celery Seeds",
+    "productDescription": "<p><strong>Celery seeds</strong>, derived from the <em>Apium graveolens</em> plant, are small, aromatic seeds that pack a powerful flavor punch. Commonly used in a variety of dishes, they deliver a <strong>distinctive earthy and slightly peppery taste</strong> that enhances <em>salads, dressings, soups,</em> and <em>pickles</em>.</p><p>Nutritionally, celery seeds are <strong>low in calories</strong> but rich in <strong>dietary fiber</strong>, helping support digestive health and weight management. They are also a good source of <strong>calcium, iron,</strong> and <strong>magnesium</strong>, vital for strong bones and metabolic function.</p><p>In traditional medicine, they're known for their <strong>anti-inflammatory and diuretic properties</strong>, and are often used to support <strong>heart health</strong> and regulate <strong>blood pressure</strong>.</p><p>Whether used <em>whole or ground</em>, celery seeds are incredibly versatile and <strong>add flavor and nutrition</strong> to many recipes. A small amount goes a long way, making them an essential addition to your spice collection.</p>",
+    "productMainImage": "uploads/CelerySeeds.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/CelerySeeds1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/CelerySeeds2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/CelerySeeds3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "celery-seeds"
+  },
+  {
+    "_id": "22",
+    "categories_id": "2",
+    "productName": "Nutmeg",
+    "productDescription": "<p><strong>Nutmeg</strong> is a warm and aromatic spice obtained from the seed of the <em>Myristica fragrans</em> tree. With its <strong>sweet, nutty flavor</strong>, nutmeg is a cherished ingredient in both <em>sweet and savory</em> recipes, especially in <em>baked goods, sauces, curries,</em> and <em>beverages like eggnog</em>.</p><p>This spice is <strong>low in calories</strong> and offers important nutrients like <strong>fiber, calcium, iron,</strong> and <strong>magnesium</strong>, which support digestive and bone health.</p><p>Nutmeg has long been used in traditional medicine for its <strong>antioxidant, anti-inflammatory,</strong> and <strong>digestive properties</strong>. It may also help improve <em>sleep quality</em> and promote <em>relaxation</em>.</p><p>Whether <em>grated or ground</em>, nutmeg adds depth and warmth to dishes. Its <strong>rich aroma and health benefits</strong> make it a beloved kitchen staple across global cuisines.</p>",
+    "productMainImage": "uploads/Nutmeg.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Nutmeg1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Nutmeg2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Nutmeg3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "nutmeg"
+  },
+  {
+    "_id": "23",
+    "categories_id": "2",
+    "productName": "Cardamom",
+    "productDescription": "<p><strong>Cardamom</strong>, known as the <em>'queen of spices'</em>, comes from the seeds of <em>Elettaria cardamomum</em> and <em>Amomum subulatum</em>. Its <strong>sweet and spicy aroma</strong> makes it a favorite in <em>Indian, Middle Eastern,</em> and <em>Scandinavian cuisines</em>.</p><p>It's <strong>low in calories</strong> but offers essential nutrients including <strong>fiber, calcium, iron,</strong> and <strong>magnesium</strong> — all important for digestive and bone health.</p><p>Traditionally, cardamom is used for its <strong>antioxidant, anti-inflammatory,</strong> and <strong>digestive properties</strong>. It's enjoyed <em>whole or ground</em>, and works beautifully in <em>teas, desserts, spice mixes,</em> and <em>savory dishes</em>.</p><p>Its <strong>complex flavor</strong> and <strong>health benefits</strong> make cardamom a must-have for both <strong>culinary excellence</strong> and <strong>wellness</strong>.</p>",
+    "productMainImage": "uploads/Cardamom.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Cardamom1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Cardamom2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Cardamom3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "100gm",
+        "priceForWholesaler": 180,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p2",
+        "size": "250gm",
+        "priceForWholesaler": 420,
+        "priceForRetailer": 500
+      },
+      {
+        "_id": "p3",
+        "size": "500gm",
+        "priceForWholesaler": 800,
+        "priceForRetailer": 950
+      }
+    ],
+    "status": "active",
+    "slug": "cardamom"
+  },
+  {
+    "_id": "24",
+    "categories_id": "2",
+    "productName": "Aniseed",
+    "productDescription": "<p><strong>Aniseed</strong>, known for its <em>sweet, aromatic flavor</em> reminiscent of licorice, is a spice derived from the <em>Pimpinella anisum</em> plant. Popular in <em>Mediterranean</em> and <em>Middle Eastern cuisines</em>, it enhances both <strong>savory and sweet dishes</strong> like baked goods, spice blends, and herbal teas.</p><p>Rich in <strong>dietary fiber, calcium,</strong> and <strong>iron</strong>, aniseed supports <strong>digestive health</strong>, bone strength, and oxygen transport. Its <strong>antioxidant properties</strong> help protect against oxidative stress.</p><p>Traditionally, aniseed has been used for its <strong>digestive, antimicrobial,</strong> and <strong>bloating-relief</strong> qualities. It can be used <em>whole or ground</em>, offering great versatility in the kitchen.</p><p>Incorporating aniseed into your meals not only <strong>boosts flavor</strong> but also adds <strong>nutritional value</strong>. Whether in teas, baked treats, or spice mixes, it's a delightful way to elevate your culinary creations.</p>",
+    "productMainImage": "uploads/Aniseed.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Aniseed1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Aniseed2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Aniseed3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Aniseed"
+  },
+  {
+    "_id": "25",
+    "categories_id": "2",
+    "productName": "Salt",
+    "productDescription": "<p><strong>Salt</strong>, primarily composed of <em>sodium chloride</em>, is one of the most <strong>essential and widely used seasonings</strong> in kitchens around the world. Renowned for its ability to <strong>enhance flavor</strong>, salt has long been used in both cooking and food preservation.</p><p>Though it contains <strong>no calories</strong>, salt plays a vital role in the body. <strong>Sodium</strong>, its key component, is crucial for <em>regulating blood pressure, maintaining fluid balance,</em> and supporting <em>muscle and nerve function</em>. However, it should be consumed in moderation, as <strong>excess intake can lead to health issues</strong> like hypertension.</p><p>Salt comes in many forms — from <strong>table salt</strong> and <strong>sea salt</strong> to <strong>kosher salt</strong> — each offering unique textures and mineral profiles for different culinary applications. <em>Table salt</em> is ideal for everyday use, while <em>sea salt</em> is prized for its coarser grains and natural minerals.</p><p>Whether used to <strong>season vegetables</strong>, enrich marinades, or bring out the flavors in baked goods, salt remains a <strong>versatile and indispensable ingredient</strong> that elevates every dish.</p>",
+    "productMainImage": "uploads/Salt.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Salt1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Salt2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Salt3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Salt"
+  },
+  {
+    "_id": "26",
+    "categories_id": "2",
+    "productName": "Sugar",
+    "productDescription": "<p><strong>Sugar</strong> is a fundamental ingredient in countless recipes, known for <strong>enhancing flavor and texture</strong>. Available in various forms — <em>granulated, powdered,</em> and <em>brown</em> — sugar is a <strong>versatile component</strong> in baking, cooking, and preserving.</p><p>Beyond sweetness, sugar serves as a <strong>fermentation aid</strong> and acts as a <strong>preservative</strong> by inhibiting microbial growth. However, <strong>moderation is key</strong>, as excessive consumption may contribute to <em>obesity, type 2 diabetes,</em> and <em>dental issues</em>.</p><p>Nutritionally, sugar provides approximately <strong>387 calories per 100 grams</strong> but lacks essential vitamins and minerals. While it can be a quick <strong>energy source</strong>, a <em>balanced diet</em> should emphasize <strong>whole foods</strong> over added sugars.</p><p>Being mindful of your sugar intake supports better <strong>long-term health</strong> and helps maintain a nutritious and wholesome lifestyle.</p>",
+    "productMainImage": "uploads/Sugar.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Sugar1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Sugar2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Sugar3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Sugar"
+  },
+  {
+    "_id": "27",
+    "categories_id": "2",
+    "productName": "Black Salt",
+    "productDescription": "<p><strong>Black salt</strong>, also known as <em>kala namak</em> or <em>Sulemani namak</em>, is a unique condiment widely used in <strong>South Asian cuisine</strong>. Its dark brown to black color comes from natural minerals such as iron and trace elements.</p><p>Known for its <strong>savory and tangy flavor</strong>, black salt is often used in salads, chutneys, snacks, and beverages like lemonade. It is <strong>lower in sodium</strong> than regular salt, making it ideal for those monitoring their sodium intake.</p><p>Rich in <strong>calcium, iron, and magnesium</strong>, it has traditionally been used in <strong>Ayurvedic medicine</strong> for its digestive and detoxifying benefits.</p><p>Its culinary uses are vast—whether <em>sprinkled on fruits</em>, <em>blended into spice mixes</em>, or used as a <strong>finishing touch</strong>—black salt adds both <strong>flavor and wellness</strong> to meals.</p>",
+    "productMainImage": "uploads/BlackSalt.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/BlackSalt1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/BlackSalt2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/BlackSalt3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Black Salt"
+  },
+  {
+    "_id": "28",
+    "categories_id": "2",
+    "productName": "Cumin",
+    "productDescription": "<p><strong>Cumin</strong>, sourced from the <em>Cuminum cyminum</em> plant, is a widely used spice recognized for its <strong>earthy, warm flavor</strong> and distinct aroma. Common in <strong>Indian, Middle Eastern,</strong> and <strong>Mexican cuisines</strong>, it enhances dishes like curries, soups, and spice blends.</p><p>Low in calories yet rich in nutrition, cumin is an excellent source of <strong>iron, calcium, magnesium,</strong> and <strong>dietary fiber</strong>. It supports <strong>oxygen transport, digestion,</strong> and <strong>bone health</strong>.</p><p>Cumin is valued not just for flavor, but for health benefits. It's packed with <strong>antioxidants</strong> and may help <strong>boost immunity, improve digestion,</strong> and even assist with <strong>weight management</strong>.</p><p>Used <strong>whole or ground</strong>, cumin's versatility makes it a <strong>kitchen staple</strong>. Whether <em>sprinkled over roasted vegetables</em> or <em>infused into stews</em>, cumin adds <strong>warmth and depth</strong> to every dish.</p>",
+    "productMainImage": "uploads/Cumin.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Cumin1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Cumin2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Cumin3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Cumin"
+  },
+  {
+    "_id": "29",
+    "categories_id": "2",
+    "productName": "Cloves",
+    "productDescription": "<p><strong>Cloves</strong> are a highly aromatic spice harvested from the dried flower buds of the Syzygium aromaticum tree. Known for their strong, warm, and sweet flavor, cloves are widely used in spice blends, baked goods, curries, and beverages.</p><p>Rich in <strong>antioxidants, vitamins,</strong> and <strong>minerals</strong>, cloves are believed to support <strong>digestive health</strong>, reduce <strong>inflammation</strong>, and promote <strong>oral hygiene</strong>. In traditional medicine, cloves have long been used for their <strong>antibacterial and pain-relieving</strong> properties.</p><p>Whether used whole in biryanis or ground into masalas, <strong>cloves add depth and warmth</strong> to every recipe, making them an essential spice in any kitchen.</p>",
+    "productMainImage": "uploads/ClovePowder.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/ClovePowder1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/ClovePowder2.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "50gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      }
+    ],
+    "status": "active",
+    "slug": "Cloves"
+  },
+  {
+    "_id": "30",
+    "categories_id": "2",
+    "productName": "Cinnamon powder",
+    "productDescription": "<p><strong>Cinnamon powder</strong>, derived from the inner bark of <em>Cinnamomum</em> trees, is a fragrant spice cherished globally for its <strong>warm, sweet flavor</strong>. Commonly used in <strong>desserts, pastries, curries,</strong> and <strong>stews</strong>, cinnamon brings comfort and richness to dishes.</p><p>Nutritionally, it's <strong>low in calories</strong> and a good source of <strong>fiber, calcium,</strong> and <strong>iron</strong>, supporting digestive and bone health. It also contains <strong>antioxidants</strong> and may aid in <strong>blood sugar control</strong> and reducing inflammation.</p><p>From sprinkling on oatmeal to blending in smoothies or baking treats, <strong>cinnamon powder</strong> is a versatile and health-boosting addition to every kitchen.</p>",
+    "productMainImage": "uploads/Cinnamonpowder.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Cinnamonpowder1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Cinnamonpowder2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Cinnamonpowder3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Cinnamon powder"
+  },
+  {
+    "_id": "31",
+    "categories_id": "2",
+    "productName": "Haldi Powder",
+    "productDescription": "<p><strong>Haldi Powder (Turmeric Powder)</strong> is cherished for its golden hue and earthy aroma. A key ingredient in <strong>Indian cooking</strong> and <strong>Ayurvedic medicine</strong>, this spice adds depth and color to dishes like <em>curries, rice, marinades, smoothies,</em> and <em>teas</em>.</p><p>Rich in <strong>antioxidants</strong> and known for its <strong>anti-inflammatory</strong> properties, turmeric supports <strong>immune function</strong> and promotes <strong>overall wellness</strong>. Our Haldi Powder is made from <strong>premium turmeric roots</strong>, finely ground for maximum freshness and potency.</p><p>Elevate your meals and nourish your body with the vibrant flavor and health benefits of Haldi Powder.</p>",
+    "productMainImage": "uploads/HaldiPowder.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/HaldiPowder1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/HaldiPowder2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/HaldiPowder3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Haldi Powder"
+  },
+  {
+    "_id": "32",
+    "categories_id": "2",
+    "productName": "Poppy Seeds",
+    "productDescription": "<p><strong>Poppy seeds</strong> are tiny, oil-rich seeds derived from the <em>Papaver somniferum</em> plant, known for their <strong>nutty flavor</strong> and delightful <strong>crunch</strong>. Used in a wide variety of global cuisines—from <em>Middle Eastern</em> to <em>Indian</em> to <em>European</em>—they enhance both sweet and savory dishes.</p><p>These seeds are rich in <strong>healthy fats</strong> (especially polyunsaturated), <strong>protein</strong>, and <strong>fiber</strong>, making them excellent for <strong>digestive health</strong>. They also provide essential minerals like <strong>calcium, iron,</strong> and <strong>magnesium</strong>, which support <strong>bone strength</strong> and <strong>overall well-being</strong>.</p><p>Traditionally used to promote relaxation and ease digestion, poppy seeds also contain <strong>antioxidants</strong> that may aid in <strong>heart health</strong>. Sprinkle them on baked goods, stir into sauces, or use them whole or ground—<strong>poppy seeds are a nutritious and flavorful addition</strong> to any dish.</p>",
+    "productMainImage": "uploads/PoppySeeds.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/PoppySeeds1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/PoppySeeds2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/PoppySeeds3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Poppy Seeds"
+  },
+  {
+    "_id": "33",
+    "categories_id": "2",
+    "productName": "Nutmeg Powder",
+    "productDescription": "<p><strong>Nutmeg Powder</strong>, made from finely ground nutmeg seeds of the <em>Myristica fragrans</em> tree, delivers a warm, sweet, and subtly nutty flavor that enhances both sweet and savory dishes. It's a staple in baking—perfect for <strong>cookies, cakes, pies</strong>—and widely used in <strong>beverages</strong> like <em>eggnog</em> and <em>mulled wine</em>.</p><p>In savory recipes, nutmeg brings richness to <strong>sauces, soups,</strong> and <strong>stews</strong>. Despite being low in calories, it provides <strong>dietary fiber</strong> and essential nutrients like <strong>calcium, iron,</strong> and <strong>magnesium</strong>, supporting overall wellness.</p><p>Nutmeg is also known for its potential health perks—it contains <strong>antioxidants</strong>, may help reduce inflammation, and is traditionally used to promote <strong>relaxation and better sleep</strong>.</p><p>Used in moderation due to its strong flavor, nutmeg powder can be sprinkled, blended, or cooked into recipes. Its rich aroma and health benefits make it a cherished addition to kitchens worldwide.</p>",
+    "productMainImage": "uploads/NutmegPowder.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/NutmegPowder1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/NutmegPowder2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/NutmegPowder3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Nutmeg Powder"
+  },
+  {
+    "_id": "34",
+    "categories_id": "2",
+    "productName": "White Pepper",
+    "productDescription": "<p><strong>White Pepper</strong>, sourced from the dried seeds of the <em>Piper nigrum</em> plant, offers a <strong>milder, smoother flavor</strong> compared to black pepper. Its <strong>light color</strong> makes it ideal for <em>creamy dishes, soups,</em> and <em>white sauces</em>, where it maintains the visual appeal without dark specks.</p><p>Nutritionally, it's low in calories and provides <strong>dietary fiber</strong> along with essential minerals like <strong>calcium, iron, magnesium,</strong> and <strong>potassium</strong>. These support digestive health and contribute to overall wellness.</p><p>White pepper contains <strong>piperine</strong>, which may enhance <strong>nutrient absorption</strong> and offer <strong>anti-inflammatory benefits</strong>. It's a go-to ingredient in many Asian recipes and a perfect substitute when a subtler heat is preferred.</p><p>Whether you're preparing a <em>light soup</em> or a <em>classic béchamel sauce</em>, white pepper's gentle kick and versatility make it an essential in your spice rack.</p>",
+    "productMainImage": "uploads/WhitePepper.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/WhitePepper1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/WhitePepper2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/WhitePepper3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "White Pepper"
+  },
+  {
+    "_id": "35",
+    "categories_id": "3",
+    "productName": "Almonds Badaam",
+    "productDescription": "<p><strong>Almonds</strong>, known as <em>badaam</em> in many South Asian cultures, are <strong>nutrient-dense nuts</strong> packed with healthy fats and plant-based protein. With <strong>21.2g protein per 100g</strong>, they're a great choice for <em>vegetarians and vegans</em>.</p><p>Rich in <strong>vitamin E</strong> — a powerful antioxidant — along with <strong>calcium, magnesium,</strong> and <strong>iron</strong>, almonds support <em>heart health, bones,</em> and <em>metabolism</em>.</p><p>Enjoy them <em>raw, roasted, or blanched</em>. From <em>almond flour desserts</em> to savory curries and salads, almonds bring a <strong>delightful crunch and natural sweetness</strong>.</p><p>Add badaam to your daily diet for a <strong>wholesome, satisfying snack</strong> that boosts overall well-being.</p>",
+    "productMainImage": "uploads/AlmondsBadaam.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/AlmondsBadaam1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/AlmondsBadaam2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/AlmondsBadaam3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Almonds Badaam"
+  },
+  {
+    "_id": "36",
+    "categories_id": "3",
+    "productName": "Kaju",
+    "productDescription": "<p><strong>Cashews</strong>, popularly known as <em>kaju</em>, are buttery, kidney-shaped nuts packed with <strong>healthy fats</strong> and <strong>18.2g protein per 100g</strong>. They're a staple in <em>Indian cooking</em> and a beloved <strong>plant-based protein</strong> source.</p><p>Loaded with <strong>magnesium</strong>, they support <em>muscle function, nerve health,</em> and <em>bone strength</em>. Their <strong>monounsaturated fats</strong> help maintain <strong>heart health</strong> and reduce bad cholesterol.</p><p>Enjoy kaju <em>raw, roasted, in curries, or sweets</em> like kaju katli. Their <strong>creamy texture and sweet flavor</strong> make them perfect for <strong>snacks and cooking</strong>.</p><p>Add them to your pantry for a <strong>nutritious, versatile ingredient</strong> that elevates both sweet and savory dishes.</p>",
+    "productMainImage": "uploads/Kaju.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/Kaju1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/Kaju2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/Kaju3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Kaju"
+  },
+  {
+    "_id": "37",
+    "categories_id": "3",
+    "productName": "Kimia Dates",
+    "productDescription": "<p><strong>Kimia dates</strong> are premium, soft, chewy dates sourced from the Middle East, prized for their <strong>natural sweetness</strong> and <em>dense nutritional profile</em>. With <strong>75g carbs per 100g</strong>, they offer a <strong>quick energy boost</strong> perfect for active lifestyles.</p><p>They're rich in <strong>dietary fiber</strong> and essential minerals like <strong>potassium, magnesium,</strong> and <strong>calcium</strong>, supporting <em>heart health, digestion,</em> and <em>muscle function</em>.</p><p>Use Kimia dates in <em>smoothies, desserts, or energy bars</em>. Their <strong>natural sugar</strong> makes them a <strong>healthier alternative to refined sweeteners</strong>.</p><p>Whether enjoyed as a snack or a culinary ingredient, Kimia dates are a <strong>wholesome, flavorful addition</strong> to a balanced diet.</p>",
+    "productMainImage": "uploads/KimiaDates.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/KimiaDates1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/KimiaDates2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/KimiaDates3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Kimia Dates"
+  },
+  {
+    "_id": "38",
+    "categories_id": "3",
+    "productName": "Raisins Kishmish",
+    "productDescription": "<p><strong>Raisins</strong>, or <em>kishmish</em>, are dried grapes celebrated for their <strong>sweet flavor</strong> and <em>chewy texture</em>. These naturally sweet treats are packed with <strong>nutrients</strong>, making them a favorite for <em>snacking and baking</em>.</p><p>With about <strong>79g of carbohydrates per 100g</strong>, mostly from <strong>natural sugars</strong>, they deliver a <em>quick energy boost</em>, ideal for athletes or anyone needing a quick pick-me-up.</p><p>Raisins are a good source of <strong>dietary fiber</strong>, aiding <em>digestion</em> and supporting a <em>healthy gut</em>. They also offer essential minerals like <strong>potassium, calcium,</strong> and <strong>iron</strong>, promoting <em>heart health</em> and <em>strong bones</em>.</p><p>Rich in <strong>antioxidants</strong> such as polyphenols, raisins help combat <em>oxidative stress</em>. Enjoy them in <em>cereals, salads, baked goods,</em> or on their own. Their <strong>natural sweetness</strong> also makes them a <em>healthier alternative to refined sugar</em>.</p>",
+    "productMainImage": "uploads/RaisinsKishmish.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/RaisinsKishmish1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/RaisinsKishmish2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/RaisinsKishmish3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "250gm",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "500gm",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "1kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Raisins Kishmish"
+  },
+  {
+    "_id": "39",
+    "categories_id": "4",
+    "productName": "Gehu Atta",
+    "productDescription": "<p><strong>Gehu atta</strong>, or <em>whole wheat flour</em>, is a <strong>nutritious staple</strong> made from finely ground <strong>whole wheat grains</strong>. It retains the bran, germ, and endosperm, offering a rich supply of <strong>dietary fiber</strong>, <strong>protein</strong>, and minerals like <strong>iron</strong> and <strong>magnesium</strong>.</p><p>With approximately <strong>13.2g protein per 100g</strong>, it supports <em>muscle development</em> and contributes to <em>overall health</em>. Its <strong>fiber content</strong> aids <em>digestion</em> and helps maintain a <em>balanced diet</em>.</p><p>Gehu atta is perfect for making <em>rotis, parathas, puris,</em> and even <em>baked goods</em>. It has a <strong>nutty flavor</strong> and a <strong>dense texture</strong> that enhances the nutritional value of every meal.</p><p>Choosing gehu atta is embracing <strong>whole grain goodness</strong> for your family — a wholesome, versatile ingredient that supports <em>daily nourishment</em>.</p>",
+    "productMainImage": "uploads/GehuAtta.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/GehuAtta1.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/GehuAtta2.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/GehuAtta3.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "5kg",
+        "priceForWholesaler": 40,
+        "priceForRetailer": 50
+      },
+      {
+        "_id": "p2",
+        "size": "10kg",
+        "priceForWholesaler": 190,
+        "priceForRetailer": 220
+      },
+      {
+        "_id": "p3",
+        "size": "30kg",
+        "priceForWholesaler": 380,
+        "priceForRetailer": 450
+      }
+    ],
+    "status": "active",
+    "slug": "Gehu Atta"
+  },
+  {
+    "_id": "40",
+    "categories_id": "5",
+    "productName": "test",
+    "productDescription": "<p>Valida Foods is a smart and efficient platform designed to simplify grocery and spice product management for both vendors and administrators. With a clean, user-friendly interface and powerful backend integration, users can easily add, edit, and categorize products with just a few taps. Each product supports detailed descriptions, multiple images, pack size variations, and pricing for both retailers and wholesalers, offering complete flexibility and control. Admins have access to comprehensive tools for managing categories, vendors, and customer feedback, while vendors can track orders, manage inventory, and maintain product visibility. The system supports seamless image uploads, rich HTML descriptions, and secure login features with role-based dashboards. Whether you're expanding your product range or optimizing existing listings, Valida Foods provides the tools and support to help your business grow effectively in the competitive online food marketplace.</p>",
+    "productMainImage": "uploads/1752034952912-630211690.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/1752034953091-961074039.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/1752034953210-277789839.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "1 kg",
+        "priceForWholesaler": 250,
+        "priceForRetailer": 200
+      }
+    ],
+    "status": "active",
+    "slug": "test 1"
+  },
+  {
+    "_id": "41",
+    "categories_id": "5",
+    "productName": "test today 2611",
+    "productDescription": "<p>Valida Foods brings fresh groceries and premium spices straight to your door with just a few taps. Whether you're a home cook or a wholesaler, we offer quality products at competitive prices. Our easy-to-use platform lets you explore categories, view detailed product info, and choose from multiple pack sizes. With secure payment options and reliable delivery, Valida Foods ensures a smooth shopping experience that saves time and adds flavor to your life.</p>",
+    "productMainImage": "uploads/1752211416739-72209275.jpg",
+    "productOtherImages": [
+      {
+        "_id": "img1",
+        "url": "uploads/1752211923459-275737927.jpg"
+      },
+      {
+        "_id": "img2",
+        "url": "uploads/1752211923468-989448528.jpg"
+      },
+      {
+        "_id": "img3",
+        "url": "uploads/1752211923718-779661833.jpg"
+      }
+    ],
+    "availablePackSizes": [
+      {
+        "_id": "p1",
+        "size": "1kg",
+        "priceForWholesaler": 250,
+        "priceForRetailer": 250
+      },
+      {
+        "_id": "p2",
+        "size": "2kg",
+        "priceForWholesaler": 500,
+        "priceForRetailer": 500
+      }
+    ],
+    "status": "active",
+    "slug": "test 2611"
+  }
 ]

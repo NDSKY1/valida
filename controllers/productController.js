@@ -1,68 +1,127 @@
-    const fs = require("fs");
-    const path = require("path");
+const fs = require("fs");
+const path = require("path");
 
-    // Path to products.json file
-    const productsFilePath = path.join(__dirname, "../models/products.json");
-    const categoriesFilePath = path.join(__dirname, "../models/categories.json");
+// Paths to JSON files
+const productsFilePath = path.join(__dirname, "../models/products.json");
+const categoriesFilePath = path.join(__dirname, "../models/categories.json");
+
+// Read and Write Helpers
+const readProductsFile = () => {
+  try {
+    if (!fs.existsSync(productsFilePath)) fs.writeFileSync(productsFilePath, "[]", "utf8");
+    const data = fs.readFileSync(productsFilePath, "utf8");
+    return JSON.parse(data || "[]");
+  } catch (err) {
+    console.error("Error reading products.json:", err);
+    return [];
+  }
+};
+
+const writeProductsFile = (data) => {
+  try {
+    fs.writeFileSync(productsFilePath, JSON.stringify(data, null, 2), "utf8");
+  } catch (err) {
+    console.error("Error writing products.json:", err);
+  }
+};
+
+const readCategoriesFile = () => {
+  try {
+    if (!fs.existsSync(categoriesFilePath)) fs.writeFileSync(categoriesFilePath, "[]", "utf8");
+    const data = fs.readFileSync(categoriesFilePath, "utf8");
+    return JSON.parse(data || "[]");
+  } catch (err) {
+    console.error("Error reading categories.json:", err);
+    return [];
+  }
+};
+
+const writeCategoriesFile = (data) => {
+  try {
+    fs.writeFileSync(categoriesFilePath, JSON.stringify(data, null, 2), "utf8");
+  } catch (err) {
+    console.error("Error writing categories.json:", err);
+  }
+};
 
 
-    // Read products.json safely
-    const readProductsFile = () => {
-        try {
-            if (!fs.existsSync(productsFilePath)) {
-                fs.writeFileSync(productsFilePath, "[]", "utf8"); // Create if missing
-            }
-            let data = fs.readFileSync(productsFilePath, "utf8");
-            return JSON.parse(data || "[]"); // Ensure valid JSON
-        } catch (error) {
-            console.error("Error reading products.json:", error);
-            return [];
-        }
+
+const addProduct = (req, res) => {
+  try {
+    const {
+      productName,
+      productDescription,
+      categories_id,
+      status,
+      slug,
+      availablePackSizes,
+    } = req.body;
+
+    if (!productName || !productDescription || !req.files?.productMainImage) {
+      return res.status(400).json({ status: 400, message: "Missing required fields" });
+    }
+
+    const mainImage = req.files.productMainImage[0];
+    const otherImages = req.files.productOtherImages || [];
+
+    const products = readProductsFile();
+
+    // 🆕 Parse and format pack sizes with _id and proper keys
+    const formattedPackSizes = availablePackSizes
+  ? JSON.parse(availablePackSizes).map((pack, index) => ({
+      _id: `p${index + 1}`,
+      size: pack.size,
+      priceForWholesaler: Number(pack.wholesalerPrice || pack.priceForWholesaler || 0),
+      priceForRetailer: Number(pack.retailerPrice || pack.priceForRetailer || 0),
+    }))
+  : [];
+
+
+    const newProduct = {
+      _id: (products.length + 1).toString(),
+      categories_id,
+      productName,
+      productDescription,
+      productMainImage: `uploads/${path.basename(mainImage.path)}`,
+      productOtherImages: otherImages.map((file, i) => ({
+        _id: `img${i + 1}`,
+        url: `uploads/${path.basename(file.path)}`,
+      })),
+      availablePackSizes: formattedPackSizes,
+      status: status || "active",
+      slug,
     };
 
-    // Write products.json safely
-    const writeProductsFile = (data) => {
-        try {
-            fs.writeFileSync(productsFilePath, JSON.stringify(data, null, 2), "utf8");
-        } catch (error) {
-            console.error("Error writing to products.json:", error);
-        }
-    };
+    products.push(newProduct);
+    writeProductsFile(products);
 
-    // Add a new product (with image upload)
-    const addProduct = (req, res) => {
-        try {
-            const { productName, productDescription, availablePackSizes, status, slug } = req.body;
+    // ✅ Update total_products count in categories.json
+    const categories = readCategoriesFile();
+    const categoryIndex = categories.findIndex(
+      (cat) => String(cat.id) === String(categories_id)
+    );
 
-            if (!productName || !productDescription || !req.file) {
-                return res.status(400).json({ status: 400, message: "Missing required fields" });
-            }
+    if (categoryIndex !== -1) {
+      categories[categoryIndex].total_products =
+        (categories[categoryIndex].total_products || 0) + 1;
+      writeCategoriesFile(categories);
+    } else {
+      console.warn(`Category with ID ${categories_id} not found. total_products not updated.`);
+    }
 
-            let products = readProductsFile();
-            const newProduct = {
-                id: products.length + 1,
-                productName,
-                productDescription,
-                productMainImage: `/uploads/${req.file.filename}`, // Store main image URL
-                productOtherImages: req.files?.productOtherImages?.map(file => `/uploads/${file.filename}`) || [], // Store multiple images
-                availablePackSizes: availablePackSizes ? JSON.parse(availablePackSizes) : [], // Ensure array format
-                status: status || "active",
-                slug,
-            };
+    return res.status(201).json({
+      status: 201,
+      message: "Product added successfully",
+      product: newProduct,
+    });
+  } catch (error) {
+    console.error("Error adding product:", error);
+    return res.status(500).json({ status: 500, message: "Internal server error" });
+  }
+};
 
-            products.push(newProduct);
-            writeProductsFile(products);
 
-            res.status(201).json({ 
-                status: 201, 
-                message: "Product added successfully", 
-                product: newProduct 
-            });
-        } catch (error) {
-            console.error("Error in addProduct:", error);
-            res.status(500).json({ status: 500, message: "Internal server error" });
-        }
-    };
+
 
     // Get all products
     const getAllProducts = (req, res) => {
@@ -110,55 +169,108 @@
         }
     };
 
-    // Update a product
-    const updateProduct = (req, res) => {
-        try {
-            const { id } = req.params;
-            let products = readProductsFile();
-            const productIndex = products.findIndex((p) => p.id == id);
+    // 📁 Continue inside productController.js
+const updateProduct = (req, res) => {
+  try {
+    const { id } = req.params;
+    const {
+      productName,
+      productDescription,
+      categories_id,
+      status,
+      slug,
+      availablePackSizes,
+    } = req.body;
 
-            if (productIndex === -1) {
-                return res.status(404).json({ status: 404, message: "Product not found" });
-            }
+    const products = readProductsFile();
+    const productIndex = products.findIndex((p) => p._id === id);
 
-            const updatedProduct = {
-                ...products[productIndex],
-                ...req.body,
-                productMainImage: req.file ? `/uploads/${req.file.filename}` : products[productIndex].productMainImage,
-                productOtherImages: req.files?.productOtherImages?.map(file => `/uploads/${file.filename}`) || products[productIndex].productOtherImages,
-                availablePackSizes: req.body.availablePackSizes ? JSON.parse(req.body.availablePackSizes) : products[productIndex].availablePackSizes,
-            };
+    if (productIndex === -1) {
+      return res.status(404).json({ status: 404, message: "Product not found" });
+    }
 
-            products[productIndex] = updatedProduct;
-            writeProductsFile(products);
+    const product = products[productIndex];
 
-            res.status(200).json({ status: 200, message: "Product updated successfully", data: updatedProduct });
-        } catch (error) {
-            console.error("Error in updateProduct:", error);
-            res.status(500).json({ status: 500, message: "Internal server error" });
-        }
-    };
+    // ✅ Update fields if provided
+    if (productName) product.productName = productName;
+    if (productDescription) product.productDescription = productDescription;
+    if (categories_id) product.categories_id = categories_id;
+    if (slug) product.slug = slug;
+    if (status) product.status = status;
 
-    // Delete a product
-    const deleteProduct = (req, res) => {
-        try {
-            const { id } = req.params;
-            let products = readProductsFile();
-            const updatedProducts = products.filter((p) => p.id != id);
+    if (availablePackSizes) {
+      product.availablePackSizes = JSON.parse(availablePackSizes).map((pack, index) => ({
+        _id: `p${index + 1}`,
+        size: pack.size,
+        priceForWholesaler: Number(pack.wholesalerPrice || pack.priceForWholesaler || 0),
+        priceForRetailer: Number(pack.retailerPrice || pack.priceForRetailer || 0),
+      }));
+    }
 
-            if (products.length === updatedProducts.length) {
-                return res.status(404).json({ status: 404, message: "Product not found" });
-            }
+    // ✅ Update main image if available
+    if (req.files?.productMainImage?.length) {
+      product.productMainImage = `uploads/${path.basename(req.files.productMainImage[0].path)}`;
+    }
 
-            writeProductsFile(updatedProducts);
+    // ✅ Update other images if provided
+    if (req.files?.productOtherImages?.length) {
+      product.productOtherImages = req.files.productOtherImages.map((file, i) => ({
+        _id: `img${i + 1}`,
+        url: `uploads/${path.basename(file.path)}`,
+      }));
+    }
 
-            res.status(200).json({ status: 200, message: "Product deleted successfully" });
-        } catch (error) {
-            console.error("Error in deleteProduct:", error);
-            res.status(500).json({ status: 500, message: "Internal server error" });
-        }
-    };
+    // ✅ Save updated product
+    products[productIndex] = product;
+    writeProductsFile(products);
 
+    return res.status(200).json({
+      status: 200,
+      message: "Product updated successfully",
+      product,
+    });
+  } catch (error) {
+    console.error("Error updating product:", error);
+    return res.status(500).json({ status: 500, message: "Internal server error" });
+  }
+};
+
+
+const deleteProduct = (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const products = readProductsFile();
+    const productIndex = products.findIndex((p) => p._id === id);
+
+    if (productIndex === -1) {
+      return res.status(404).json({ status: 404, message: "Product not found" });
+    }
+
+    const product = products[productIndex];
+    const categoryId = product.categories_id;
+
+    products.splice(productIndex, 1);
+    writeProductsFile(products);
+
+    // 🧮 Update category product count
+    const categories = readCategoriesFile();
+    const categoryIndex = categories.findIndex((c) => String(c.id) === String(categoryId));
+    if (categoryIndex !== -1) {
+      categories[categoryIndex].total_products =
+        (categories[categoryIndex].total_products || 1) - 1;
+      writeCategoriesFile(categories);
+    }
+
+    return res.status(200).json({
+      status: 200,
+      message: "Product deleted successfully",
+    });
+  } catch (error) {
+    console.error("Error deleting product:", error);
+    return res.status(500).json({ status: 500, message: "Internal server error" });
+  }
+};
 
     // Get available products for sale (filtered by keyword, or all if no keyword)
     const getAvailableForSell = (req, res) => {
@@ -240,11 +352,6 @@
 
 
 
-
-
-
-
-
 module.exports = {
     addProduct,
     getAllProducts,
@@ -252,7 +359,7 @@ module.exports = {
     updateProduct,
     deleteProduct,
     getAvailableForSell,
-    getProductsByCategory ,
+    getProductsByCategory,
     
 };
 

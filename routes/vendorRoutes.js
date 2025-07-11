@@ -7,7 +7,8 @@ const {
     changePassword, 
     forgotPassword,            // New: Forgot Password API
     forgotPasswordVerifyOtp,
-    updateAddress   // Existing: OTP Verification for Forgot Password
+    updateAddress,
+    getAllVendors              // New: Get all vendors API
 } = require("../controllers/vendorController");
 
 const verifyToken = require("../middlewares/authMiddleware"); // Import middleware
@@ -25,6 +26,12 @@ router.post("/forgotPasswordOTPVerification", forgotPasswordVerifyOtp);
 router.get("/getProfile", verifyToken, getProfile);
 router.post("/changePassword", verifyToken, changePassword);
 router.post("/updateAddress", verifyToken, updateAddress);
+// New: Get all vendors (public route)
+router.get("/vendorsDetails", getAllVendors); // 👈 Add this line
+
+
+
+
 
 
 module.exports = router;

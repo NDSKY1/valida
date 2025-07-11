@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "name": "Ankit Khunt",
+    "mobile": "9999999999",
+    "password": "admin123"
+  },
+  {
+    "id": "2",
+    "name": "Vidhi Khunt",
+    "mobile": "8888888888",
+    "password": "admin123"
+  }
+]

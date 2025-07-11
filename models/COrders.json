@@ -1,89 +1,70 @@
 [
   {
-    "id": "1743073804506709",
-    "challanNo": "1743073804506709",
-    "total": 95,
+    "id": "1752141222912874",
+    "challanNo": "1752141222912874",
+    "total": 3240,
     "productList": [
       {
-        "_id": "1743073785566379",
-        "productId": "10",
-        "productName": "Cumin Seeds",
-        "productMainImage": "uploads/jeera.jpg",
-        "sizeId": "p26",
-        "size": "250g",
+        "_id": "1752141154367725",
+        "productId": "4",
+        "productName": "Moong Sabut",
+        "productMainImage": "uploads/MoongSabut.jpg",
+        "sizeId": "p1",
+        "size": "250gm",
         "qty": 1,
-        "price": 95,
-        "subtotal": 95
-      }
-    ],
-    "remark": "hii",
-    "status": "Delivered",
-    "deliveryBoy": "1",
-    "createdAt": "2025-03-27T11:10:47.471Z",
-    "updatedAt": "2025-03-27T11:35:38.689Z",
-    "mobile": "9484840279",
-    "vendorsData": {
-      "id": "2",
-      "vendorName": "Sujal",
-      "shopName": "maruti",
-      "mobile": "9484840279",
-      "gstNo": "22ABCDE3451D3D4",
-      "shipment": {
-        "shopNo": "205",
-        "address": "Mota varachha ",
-        "landmark": "vesu",
-        "city": "surat",
-        "state": "surat",
-        "pinCode": "395010"
-      }
-    }
-  },
-  {
-    "id": "1742872683347459",
-    "challanNo": "1742872683347459",
-    "total": 5450,
-    "productList": [
-      {
-        "_id": "1742872574995434",
-        "productId": "18",
-        "productName": "White Sugar",
-        "productMainImage": "uploads/sugar.jpg",
-        "sizeId": "p41",
-        "size": "1kg",
-        "qty": 50,
         "price": 40,
-        "subtotal": 2000,
-        "updatedAt": "2025-03-25T03:17:22.912Z"
+        "subtotal": 40
       },
       {
-        "_id": "1742872576246928",
-        "productId": "18",
-        "productName": "White Sugar",
-        "productMainImage": "uploads/sugar.jpg",
-        "sizeId": "p42",
-        "size": "5kg",
-        "qty": 5,
-        "price": 190,
-        "subtotal": 950
+        "_id": "1752141155910435",
+        "productId": "4",
+        "productName": "Moong Sabut",
+        "productMainImage": "uploads/MoongSabut.jpg",
+        "sizeId": "p3",
+        "size": "1kg",
+        "qty": 1,
+        "price": 380,
+        "subtotal": 380
       },
       {
-        "_id": "1742872628676623",
-        "productId": "17",
-        "productName": "Rock Salt",
-        "productMainImage": "uploads/rock_salt.jpg",
-        "sizeId": "p39",
-        "size": "500g",
-        "qty": 50,
-        "price": 50,
-        "subtotal": 2500,
-        "updatedAt": "2025-03-25T03:17:17.688Z"
+        "_id": "1752141169361220",
+        "productId": "39",
+        "productName": "Gehu Atta",
+        "productMainImage": "uploads/GehuAtta.jpg",
+        "sizeId": "p3",
+        "size": "30kg",
+        "qty": 3,
+        "price": 380,
+        "subtotal": 1140
+      },
+      {
+        "_id": "1752141175470168",
+        "productId": "38",
+        "productName": "Raisins Kishmish",
+        "productMainImage": "uploads/RaisinsKishmish.jpg",
+        "sizeId": "p1",
+        "size": "250gm",
+        "qty": 4,
+        "price": 40,
+        "subtotal": 160
+      },
+      {
+        "_id": "1752141176408380",
+        "productId": "38",
+        "productName": "Raisins Kishmish",
+        "productMainImage": "uploads/RaisinsKishmish.jpg",
+        "sizeId": "p3",
+        "size": "1kg",
+        "qty": 4,
+        "price": 380,
+        "subtotal": 1520
       }
     ],
-    "remark": "bhai bhai 😂",
-    "status": "Delivered",
+    "remark": "test 2611 ",
+    "status": "out of delivery",
     "deliveryBoy": "1",
-    "createdAt": "2025-03-27T11:16:25.763Z",
-    "updatedAt": "2025-03-30T04:55:28.384Z",
+    "createdAt": "2025-07-10T10:19:19.094Z",
+    "updatedAt": "2025-07-10T10:19:19.094Z",
     "mobile": "9313516451",
     "vendorsData": {
       "id": "1",
@@ -102,42 +83,63 @@
     }
   },
   {
-    "id": "174307526999229",
-    "challanNo": "174307526999229",
-    "total": 12500,
+    "id": "1752142255773411",
+    "challanNo": "1752142255773411",
+    "total": 265,
     "productList": [
       {
-        "_id": "1743075253034934",
-        "productId": "13",
-        "productName": "Cardamom",
-        "productMainImage": "uploads/cardamom.jpg",
-        "sizeId": "p31",
-        "size": "50g",
-        "qty": 50,
-        "price": 250,
-        "subtotal": 12500,
-        "updatedAt": "2025-03-27T11:34:23.266Z"
+        "_id": "17521422324191",
+        "productId": "1",
+        "productName": "Black Sabut Urad Dal",
+        "productMainImage": "uploads/BlackSabutUradDal.jpg",
+        "sizeId": "p1",
+        "size": "250gm",
+        "qty": 1,
+        "price": 35,
+        "subtotal": 35
+      },
+      {
+        "_id": "1752142238549417",
+        "productId": "10",
+        "productName": "Red Chill",
+        "productMainImage": "uploads/RedChill.jpg",
+        "sizeId": "p1",
+        "size": "250gm",
+        "qty": 1,
+        "price": 40,
+        "subtotal": 40
+      },
+      {
+        "_id": "1752142244942530",
+        "productId": "10",
+        "productName": "Red Chill",
+        "productMainImage": "uploads/RedChill.jpg",
+        "sizeId": "p2",
+        "size": "500gm",
+        "qty": 1,
+        "price": 190,
+        "subtotal": 190
       }
     ],
-    "remark": "maja",
-    "status": "Delivered",
+    "remark": "test 1",
+    "status": "out of delivery",
     "deliveryBoy": "1",
-    "createdAt": "2025-03-27T11:35:00.976Z",
-    "updatedAt": "2025-03-27T11:35:41.256Z",
-    "mobile": "9484840279",
+    "createdAt": "2025-07-10T10:20:32.305Z",
+    "updatedAt": "2025-07-10T10:20:32.305Z",
+    "mobile": "9313516451",
     "vendorsData": {
-      "id": "2",
-      "vendorName": "Sujal",
-      "shopName": "maruti",
-      "mobile": "9484840279",
-      "gstNo": "22ABCDE3451D3D4",
+      "id": "1",
+      "vendorName": "Ankit khunt",
+      "shopName": "shri ji ",
+      "mobile": "9313516451",
+      "gstNo": "22ABCD1234D3S4",
       "shipment": {
         "shopNo": "205",
-        "address": "Mota varachha ",
-        "landmark": "vesu",
-        "city": "surat",
-        "state": "surat",
-        "pinCode": "395010"
+        "address": "Radhe road ",
+        "landmark": "Yogi chowkl",
+        "city": "Surat",
+        "state": "Gujarat",
+        "pinCode": "395016"
       }
     }
   }
